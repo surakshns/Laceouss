@@ -1,5 +1,5 @@
 *{
-
+	 background-color: #222222;
 }
 
 body{
@@ -23,6 +23,7 @@ header{
 h5{
 	font-size: 22px;
 	color: white;
+	background-color: black;
 }
 h4{
 	font-size: 30px;
@@ -33,11 +34,14 @@ div{
     display: table-cell;
     height: 350px;
     padding: 20px;
-    background: #222222; 
+    background: black; 
     margin-left: 200px;
 }
 section{
-
+	 text-align: center;
+     height: 495px;
+     width: 1330px;
+     overflow: auto;
 }
 .disc{
 	    font-size: 20px;
@@ -59,12 +63,10 @@ footer p{
 #physc p{
 		cursor: pointer;
 	}
-	h5:hover{
-     	background-image: url(https://images2.alphacoders.com/474/474157.jpg);
-        color: red;
+div:hover h5{
+background-color: #282828; 
+color: red; 
 }
 div:hover{
-background-image: url(https://images2.alphacoders.com/474/474157.jpg);
-  
+	background-color: #282828; 
 }
-	
