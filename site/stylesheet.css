@@ -9,7 +9,7 @@ body{
 	font-family: sans-serif;
 	 background-color: #222222;
 	 margin: 0px;
-	 max-width: 1320px;
+	 max-width: 1400px;
   margin: auto;
 }
 article{      
@@ -18,7 +18,7 @@ article{
         align-items: center;
         background-position: center;
          height: 500px;
-         width: 1335px;
+         width: 1400px;
 	}	
 h1{
 	color: red;
@@ -26,6 +26,7 @@ h1{
 }	
 header{
      font-size: 25px;
+     text-align: center;
 }	
 h5{
 	font-size: 22px;
@@ -37,17 +38,21 @@ h4{
 	text-align: center;
 }
 div{
-	width: 200px;
+	width: 250px;
     display: table-cell;
-    height: 350px;
+    height: 300px;
     padding: 20px;
     background: black; 
-    margin-left: 200px;
 }
 section{
-     height: 495px;
-     width: 1330px;
+     height: 600px;
+     width: 1400px;
      overflow: auto;
+}
+.image{
+	 width:300px; 
+	 height:400px; 
+	 alt:"IMAGE NOT FOUND";
 }
 .disc{
 	    font-size: 20px;
