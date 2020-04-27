@@ -1,13 +1,16 @@
+*{
 
+}
 
 body{
 	text-align: center;
 	background-image: url();
 	background-size: cover;
-	background-attachment: fixed;
+	font-family: sans-serif;
+	 background-color: #222222;
 }
 article{      
-		color: black;
+		color: white;
         font-style: bold;
 	}	
 h1{
@@ -17,14 +20,24 @@ h1{
 header{
      font-size: 25px;
 }	
-div{
-	column-width: 300px;
-}
 h5{
 	font-size: 22px;
+	color: white;
 }
 h4{
 	font-size: 30px;
+	text-align: center;
+}
+div{
+	width: 200px;
+    display: table-cell;
+    height: 350px;
+    padding: 20px;
+    background: #222222; 
+    margin-left: 200px;
+}
+section{
+
 }
 .disc{
 	    font-size: 20px;
@@ -46,13 +59,12 @@ footer p{
 #physc p{
 		cursor: pointer;
 	}
-a{
-        color: red;
-	}
 	h5:hover{
      	background-image: url(https://images2.alphacoders.com/474/474157.jpg);
         color: red;
 }
-    img:hover + a{
-    	border: red;
-    }
+div:hover{
+background-image: url(https://images2.alphacoders.com/474/474157.jpg);
+  
+}
+	
