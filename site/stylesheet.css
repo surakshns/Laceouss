@@ -2,6 +2,7 @@
 	 background-color:;
 	 box-sizing: border-box;
 	 position: relative;
+	 scroll-behavior: smooth;
 }
 
 body{
@@ -11,67 +12,67 @@ body{
 	font-family: sans-serif;
 	 background-color: #222222;
 	 margin: 0px;
-	 max-width: 1300px;
+	 max-width: 100%;
      margin: auto;
 }
 article{      
 		color: white;
         font-style: bold;
-         height: 500px;
-         width: 1300px;
+         height: 100%;
+         width: 100%;
 	}	
 h1{
 	color: red;
-	font-size: 40px;
+	font-size: 250%;
 }	
 header{
-     font-size: 25px;
+     font-size: 150%;
 }	
 h5{
-	font-size: 25px;
+	font-size: 140%;
 	color: white;
 	background-color: black;
 }
 h4{
-	font-size: 30px;
+	font-size: 170%;
 	text-align: center;
 }
 div{
     display: table-cell;
-    height: 200px;
-    padding: 35px;
+    height: 25%;
+    padding: 20px 20px 20px 20px;
     background: black; 
 }
 section{
-     height: 550px;
-     width: 1300px;
+     height: 310%;
+     width: 100%;
      overflow: auto;
 }
 footer{
        background-position: center bottom;
 }
 .image{
-	 width:250px; 
-	 height:350px; 
+	 width:210PX; 
+	 height:310PX; 
 }
-.disc{
-	    font-size: 20px;
+<!-- .disc{
+	    font-size: 100%;
 		font-style: italic;
-	}
+	} -->
 #head{
-		font-size: 35px;
+		font-size: 250%;
 		color: red;
 	}
 p#physc{
-		color: grey;
-		font-size: 30px;
+		color: red;
+		font-size: 180%;
 	}
 div > p{
 		color: purple;
 	}
 footer p{
 		text-align: center;
-		font-size: 30px;
+		font-size: 100%;
 	}
 #physc p{
 		cursor: pointer;
@@ -83,3 +84,8 @@ color: red;
 div:hover{
 	background-color: #282828; 
 }
+#physc:hover{
+	color: blue;
+    
+}
+
