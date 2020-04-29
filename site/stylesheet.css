@@ -74,12 +74,10 @@ a:hover::before{
 	width: 100%;
 }
 input{
-	margin-left: 130px;
-	top: 24px;
+	float: right;
 	height: 30px;
 	width: 300px;
 	margin-right: 20px;
-	margin-bottom: 20px;
 }
 
 
