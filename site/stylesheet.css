@@ -1,21 +1,24 @@
 *{
 	 background-color:;
+	 box-sizing: border-box;
+	 position: relative;
 }
 
 body{
 	text-align: center;
-	background-image: url();
+	background-image: url(ba);
+	background-size: cover;
 	font-family: sans-serif;
 	 background-color: #222222;
 	 margin: 0px;
-	 max-width: 1400px;
+	 max-width: 1300px;
      margin: auto;
 }
 article{      
 		color: white;
         font-style: bold;
          height: 500px;
-         width: 1400px;
+         width: 1300px;
 	}	
 h1{
 	color: red;
@@ -41,7 +44,7 @@ div{
 }
 section{
      height: 550px;
-     width: 1400px;
+     width: 1300px;
      overflow: auto;
 }
 footer{
