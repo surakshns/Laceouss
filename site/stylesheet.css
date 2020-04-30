@@ -44,9 +44,10 @@ ul{
 li{
 	padding-top: 24px;
 	display: inline-block;
-	margin-left: 130px;
+	margin-left: 100px;
 	text-transform: uppercase;
 	position: relative;
+	margin-right: 20px;
 
 }
 a{
@@ -73,13 +74,6 @@ a::before {
 a:hover::before{
 	width: 100%;
 }
-input{
-	float: right;
-	height: 30px;
-	width: 300px;
-	margin-right: 20px;
-}
-
 
 
 
@@ -106,19 +100,7 @@ h4{
 	font-size: 170%;
 	text-align: center;
 }
-h4::before{
-	content: "";
-	display: block;
-	height: 5px;
-	width: 100%;
-    color: white;
-    transition: all ease-in-out 350ms;
-    background-color: red;
-    width: 0%;
-}
-h4:hover::before{
-   width: 100%
-}
+
 
 div{
     display: table-cell;
