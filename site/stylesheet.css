@@ -17,7 +17,7 @@ body{
 
 
 .nav{
-	width: 200px;
+	width: 100px;
 	height: 75px;
 	float: left;
 	margin-left: 15px;
@@ -44,7 +44,7 @@ ul{
 li{
 	padding-top: 24px;
 	display: inline-block;
-	margin-left: 100px;
+	margin-left: 70px;
 	text-transform: uppercase;
 	position: relative;
 	margin-right: 20px;
