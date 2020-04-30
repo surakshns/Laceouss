@@ -1,7 +1,5 @@
 *{
-	 background-color:;
-	
-	 scroll-behavior: smooth;
+	box-sizing: border-box;
 }
 
 body{
@@ -59,22 +57,8 @@ ul{
 	margin: 0;
 	height: 70px
 	width: 1500px;
-}
-a::before {
-	content: "";
-	display: block;
-	height: 5px;
-	width: 100%;
-	background-color: red;
-	position: absolute;
-    top: 0;
-    width: 0%;
-    transition: all ease-in-out 350ms;
-}
-a:hover::before{
-	width: 100%;
-}
 
+}
 
 
 
