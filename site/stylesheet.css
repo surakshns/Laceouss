@@ -74,7 +74,12 @@ li::before {
 li:hover::before{
 	width: 100%;
 }
-
+li:hover{
+	color: white;
+}
+a.col:hover{
+     color: white;
+}
 
 
 
