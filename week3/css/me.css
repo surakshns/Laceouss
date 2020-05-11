@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@media (min-width: 992px)
-{
-	body{
+body{
 	background-color: black;
 	scroll-behavior: smooth;
 }
@@ -9,23 +7,22 @@
 	background-color: #80ff9f;
 	height: 80px;
 	padding-left: 5px;
+	border-radius: 0px;
 }
 .container{
-	position: relative;
 	height: 80px;
 	padding-left: 0px;
 }
 .navbar-brand{
-	position: absolute;
-	left: 150px;
+	position: relative;
+	left: 5px;
 }
 h1{
 	display: inline;
 	font-family: 'Indie Flower', cursive;
-    font-size: 50px;
+    font-size: 30px;
     height: 80px;
     color: #004d12;
-    left: 0px;
 }
 p{
 	padding-left: 5px;
@@ -33,96 +30,41 @@ p{
 }
 img{
 	position: relative;
-	top: -8px;
-    width: 130px;
+	top: 7px;
+    width: 115px;
     height: 65px;
     border-radius: 50px;
-    left: 0px;
+    left: 10px;
 }
-.navbar-toggler{
+button{
 	position: relative;
-      left: 20px;
+	top: 15px;
+     background-color: #80ff9f;
 }
-ul{
-	list-style: none;
-}
-li{
-	position: relative;
-	display: inline-block;
-	padding-right:  100px;
-}
-li::before {
-	content: "";
-	display: block;
-	height: 5px;
-	width: 100%;
-	background-color: black;
-	position: absolute;
-    top: 0;
-    width: 0%;
-    transition: all ease-in-out 350ms;
-}
-li:hover::before{
-	width: 100%;
-}
-li:hover{
-	color: white;
-	cursor: pointer;
-}
-}
-
-@media (min-width: 0px) and (max-width: 767px)
-{
-	body{
-	background-color: black;
-	scroll-behavior: smooth;
-}
-#nav{
+#nav-list{
 	background-color: #80ff9f;
-	height: 80px;
-	padding-left: 5px;
+	text-align: center;
 }
-.container{
+li > a{
 	position: relative;
-	top: 0;
-	height: 80px;
-	padding-left: 0px;
+	top: 5px;
+	text-decoration: none;
+	color: black;
 }
-.navbar-header{
-	display: inline;
-	top: 8px;
-	height: 80px;
+.navbar-header button.navbar-toggler,.navbar-header .icon-bar{
+	border: 1px solid black;
 }
-.navbar-brand{
-	position: absolute;
-	left: 110px;
-}
-h1{
-	display: inline;
-	font-family: 'Indie Flower', cursive;
-    font-size: 28px;
-    height: 80px;
-    color: #004d12;
-    left: 0px;
-}
-p{
-	padding-left: 5px;
-	font-size: 10px;
-}
-img{
-	position: relative;
-	top: -8px;
-    width: 110px;
-    height: 65px;
-    border-radius: 50px;
-    left: 0px;
-}
-.navbar-toggler{
-	position: relative;
-      left: 40px;
-      bottom: 8px;
+@media (min-width: 992px)
+{
+	
+
 }
 @media (min-width: 768px) and (max-width: 991px)
+{
+
+
+}
+@media (min-width: 0px) and (max-width: 767px)
 {
 
 }
