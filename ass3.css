@@ -34,7 +34,7 @@ h1{
 li{
 	padding: 10px;
 	text-align: center;
-	height: 40px;
+	height: 55px;
 	color: #ccffcc;
 	font-size: 1.3em;
 }
@@ -50,7 +50,7 @@ ul{
 	position: absolute;
 	bottom: 0px;
     width: 100%;
-    height: 40px;
+    height: 55px;
 }
 li:hover, a:hover{
 	background-color: #008000;
@@ -79,8 +79,8 @@ li:hover, a:hover{
 }
 .para{
 	color: #008000;
-	padding: 10px;
-	font-size: 20px;
+	padding: 0px;
+	font-size: 16px;
 }
 .box{
     background-color: #ccffcc;
