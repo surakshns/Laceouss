@@ -38,6 +38,9 @@ li{
 	color: #ccffcc;
 	font-size: 1.3em;
 }
+ul{
+	position: relative;
+	top: 1px;
 }
 .navbar-nav > li > a{
 	padding-bottom: 0px;
@@ -92,20 +95,3 @@ li{
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #008000;
 }
-/** Small devices (landscape phones, less than 768px)**/
-@media (max-width: 767.98px) 
-{
-
-}
-
-/** Medium devices (tablets, less than 992px)**/
-@media (max-width: 991.98px) 
-{
-
-}
-
-/** Large devices (desktops, less than 1200px)**/
-@media (max-width: 1199.98px)
-{
-
- }
