@@ -124,6 +124,12 @@ section{
      width: 100%;
      overflow: auto;
 }
+.note{
+     color: #b8b894;
+     width: 100%;
+     text-align: center;
+     margin-left: 40px;
+}
 footer{
        background-position: center bottom;
 }
