@@ -1,3 +1,4 @@
+// GLOBLE
 // var mess ="hello";
 // 	console.log("globle:"+mess);
 // var a=function () {
@@ -10,7 +11,7 @@
 // }
 // a();
 
-
+// FUNCTION CONSTRUCT
 // function Circle(radius){
 // 	this.radius=radius;
 
@@ -21,7 +22,7 @@
 // console.log(mycircle);
 
 
-// array
+// ARRAY
 // var array= new Array();
 // array[0] = "sur";
 // array[1] = 2;
@@ -46,31 +47,31 @@
 // 	console.log("hello " +names[i]);
 // }
 
+// ARRAY PT-2
+// var names2 = ["suraksh", "suthan", "jeevan"];
 
-var names2 = ["suraksh", "suthan", "jeevan"];
+// var obj ={
+//    name: "suraksh",
+//    course:"Wed development"
+// };
+// for (var prop in obj){
+// 	console.log(prop +"-" +obj[prop]);
+// }
 
-var obj ={
-   name: "suraksh",
-   course:"Wed development"
-};
-for (var prop in obj){
-	console.log(prop +"-" +obj[prop]);
-}
+// for(var name in names2){
+// 	console.log("hi "+names2[name])
+// }
+// names2.greeting="hi"; //this is some property that js takes up as array has arrays behave as object
+// for(var name in names2){
+// 	console.log("hi "+names2[name])
+// }
 
-for(var name in names2){
-	console.log("hi "+names2[name])
-}
-names2.greeting="hi"; //this is some property that js takes up as array has arrays behave as object
-for(var name in names2){
-	console.log("hi "+names2[name])
-}
-
-// closures
-function makemul (multi){
-	return (
-		function (x){
-			return multi*x;
-		});
-}
-var doubleall = makemul(10);
-console.log(doubleall(3));
+// CLOSURE
+// function makemul (multi){
+// 	return (
+// 		function (x){
+// 			return multi*x;
+// 		});
+// }
+// var doubleall = makemul(10);
+// console.log(doubleall(3));
