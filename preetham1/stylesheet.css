@@ -135,7 +135,7 @@ a{
 #music{
 	font-size: 4vw;
 	position: relative;
-	bottom: -560px;
+	bottom: -350px;
 }
 section#image{
 	width: 100%;
@@ -161,7 +161,7 @@ a{
 }
 #music{
 	position: relative;
-	bottom: -650px;
+	bottom: -450px;
 }
 section#image{
 	width: 100%;
@@ -187,17 +187,42 @@ a{
 }
 #music{
 	position: relative;
-	bottom: -650px;
+	bottom: -550px;
 }
 section#image{
 	width: 100%;
 }
 h1{
-	top: 120px;
+	top: 150px;
 }
 
 }
 @media (min-width: 426px) and (max-width: 637px){
+section#image  > div{
+	width: 330px;
+	height: 330px;
+	left: 0%;
+	top: 100%;
+}
+a{
+	text-shadow: 10px;
+	padding: 8px;
+	height: 20px;
+	left: 270px;
+	top: 130px;
+}
+#music{
+	position: relative;
+	bottom: -550px;
+}
+section#image{
+	width: 100%;
+}
+h1{
+	top: 150px;
+}
+
+}
 
 }
 @media (min-width: 638px) and (max-width: 767px){
@@ -207,10 +232,7 @@ h1{
 
 }
 @media (min-width: 992px) and (max-width: 1199px){
-#music{
-	position: relative;
-	bottom: -650px;
-}
+
 }
 /*LARGE SCREEN*/
 @media (min-width: 1200px){
