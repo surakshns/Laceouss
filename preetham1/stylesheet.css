@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+body{
+	margin: 0px;
+	padding: 0px;
+}   
+h1{
+	color: white;
+	position: relative;
+	top: 30px;
+	font-family: 'Abril Fatface', cursive;
+}
+.col-xs-12, .col-md-12, .col-sm-12{
+	  display: block;
+}
+section#image{
+position: relative;
+  display: block;
+  width: 500px;
+  padding: 25%;
+  margin: auto;
+}
+section#image  > div{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 2%;
+	top: 15px;
+	background-size: cover; 
+	margin: auto;
+}
+#sad{
+	background-image: url("14999671.jpg");
+    opacity: 1;
+     background-position: center;
+}
+#happy{
+	background-image: url("https://wallpaperaccess.com/full/1499967.jpg"); 
+	 opacity: 0;
+	   background-position: center;
+	 
+}
+#music{
+	padding: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	display: inline-block;
+	position: absolute;
+	bottom: -38px;
+	
+
+}
+a{
+	position: relative;
+	left: 500px;
+	top: 200px;
+	padding: 15px; 
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 673px){
+	
+
+}
+@media (min-width: 674px) and (max-width: 767px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+@media (min-width: 1200px){
+#music{
+	bottom: -80px;
+}
+section#image  > div{
+	top: 80px;
+}
+h1{
+	top: 80px;
+}
+
+
+}

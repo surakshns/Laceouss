@@ -1,0 +1,36 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	animation: animate 18s ease-in-out infinite;
+	background-size: cover; 
+}
+/*BACKGROUND*/
+.container-fluid{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100vh;
+	background: rgba(0,0,0,0.6); 
+}
+@keyframes animate{
+	0%,100%{
+		background-image: url(https://www.adorama.com/alc/wp-content/uploads/2017/09/shutterstock_664474234.jpg);
+	}
+	25%{
+		background-image: url(https://s3-ap-southeast-2.amazonaws.com/cae-wp-user-uploads/app/uploads/2016/02/12053055/Abstract-Painting_banner.jpg);
+	}
+	50%{
+		background-image: url(https://i.pinimg.com/originals/dd/c6/0b/ddc60bde3f9ed3b4737caa2d2bf37440.jpg);
+	}
+	75%{
+		background-image: url(https://www.androidguys.com/wp-content/uploads/2016/01/6944719-tree-sunset-reflection.jpg);
+	}
+}
+/*NAVBAR*/

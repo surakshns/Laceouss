@@ -18,7 +18,7 @@
 		    <img src="https://www.designmantic.com/blog/wp-content/uploads/2020/01/Photography-Logos-718x300.png" alt="Logo">
   
 	            <div class="navbar-brand">
-	        	    <a href="Photography.html"><h1>Photography</h1></a>
+	        	    <a href="Photography.html"><h1 id="title1">Photography</h1></a>
 	        	    <p>Created By Suraksh</p>
  	            </div>
             </a>
@@ -65,12 +65,14 @@ glyphicon glyphicon-home"></span>
 </header>
 
 
-<div id="searchbar">
-    <input type="text" id="name">
-    <button onclick="sayhello();">Press</button>
-</div>
+<p>
+    <input onblur="sayHello();" type="text" id="name">
+    <button onclick="sayHello();">Press</button>
+</p>
 
-<div id="con"></div>
+<div id="content"></div>
+
+
 
 
 
