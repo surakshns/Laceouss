@@ -115,27 +115,91 @@ a{
 }
 
 
-
-
-
-@media (min-width: 0px) and (max-width: 673px){
+/*SMALL MOBILE*/
+@media (min-width: 0px) and (max-width: 353px){
 section#image  > div{
-	width: 200px;
-	height: 200px;
-	left: 15%;
-	top: 100px;
+	width: 65vw;
+	height: 65vw;
+	left: 5%;
+	top: 150px;
 }
 a{
-	left: 200px;
+	font-size: 4vw;
+	text-shadow: 10px;
+	padding: 8px;
+	height: 20px;
+	left: 180px;
+	top: 90px;
+}
+#music{
+	font-size: 4vw;
+	position: relative;
+	bottom: -360px;
+}
+section#image{
+	width: 100%;
+}
+h1{
+	top: 50px;
+}
+}
+/*MED MOB*/
+@media (min-width: 354px) and (max-width: 384px){
+section#image  > div{
+	width: 280px;
+	height: 280px;
+	left: 0%;
+	top: 80px;
+}
+a{
+	text-shadow: 10px;
+	padding: 8px;
+	height: 20px;
+	left: 230px;
 	top: 100px;
 }
 #music{
 	position: relative;
-	bottom: -400px;
+	bottom: -380px;
+}
+section#image{
+	width: 100%;
+}
+h1{
+	top: 50px;
+}
+}
+/*LARGE MOB*/
+@media (min-width: 385px) and (max-width: 425px){
+section#image  > div{
+	width: 330px;
+	height: 330px;
+	left: 0%;
+	top: 75px;
+}
+a{
+	text-shadow: 10px;
+	padding: 8px;
+	height: 20px;
+	left: 270px;
+	top: 130px;
+}
+#music{
+	position: relative;
+	bottom: -290px;
+}
+section#image{
+	width: 100%;
+}
+h1{
+	top: 50px;
 }
 
 }
-@media (min-width: 674px) and (max-width: 767px){
+@media (min-width: 426px) and (max-width: 637px){
+
+}
+@media (min-width: 638px) and (max-width: 767px){
 
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -144,6 +208,7 @@ a{
 @media (min-width: 992px) and (max-width: 1199px){
 
 }
+/*LARGE SCREEN*/
 @media (min-width: 1200px){
 #music{
 	bottom: -80px;
