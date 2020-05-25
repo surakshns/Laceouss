@@ -69,19 +69,20 @@ position: relative;
   display: block;
   width: 500px;
   padding: 25%;
+  top: 30px;
   margin: auto;
 }
 section#image  > div{
-	width: 500px;
-	height: 500px;
+	width: 400px;
+	height: 400px;
 	position: absolute;
-	left: 2%;
+	left: 12%;
 	top: 15px;
 	background-size: cover; 
 	margin: auto;
 }
 #sad{
-	background-image: url("14999671.jpg");
+	background-image: url("https://vignette.wikia.nocookie.net/batman/images/c/c0/Facepaint.png/revision/latest?cb=20200320213434");
     opacity: 1;
      background-position: center;
 }
@@ -134,7 +135,7 @@ a{
 #music{
 	font-size: 4vw;
 	position: relative;
-	bottom: -360px;
+	bottom: -560px;
 }
 section#image{
 	width: 100%;
@@ -160,7 +161,7 @@ a{
 }
 #music{
 	position: relative;
-	bottom: -550px;
+	bottom: -650px;
 }
 section#image{
 	width: 100%;
@@ -186,7 +187,7 @@ a{
 }
 #music{
 	position: relative;
-	bottom: -550px;
+	bottom: -650px;
 }
 section#image{
 	width: 100%;
@@ -206,7 +207,10 @@ h1{
 
 }
 @media (min-width: 992px) and (max-width: 1199px){
-
+#music{
+	position: relative;
+	bottom: -650px;
+}
 }
 /*LARGE SCREEN*/
 @media (min-width: 1200px){
