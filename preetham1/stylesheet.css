@@ -149,7 +149,7 @@ section#image  > div{
 	width: 280px;
 	height: 280px;
 	left: 0%;
-	top: 80px;
+	top: 100%;
 }
 a{
 	text-shadow: 10px;
@@ -160,13 +160,13 @@ a{
 }
 #music{
 	position: relative;
-	bottom: -380px;
+	bottom: -550px;
 }
 section#image{
 	width: 100%;
 }
 h1{
-	top: 50px;
+	top: 120px;
 }
 }
 /*LARGE MOB*/
@@ -175,7 +175,7 @@ section#image  > div{
 	width: 330px;
 	height: 330px;
 	left: 0%;
-	top: 75px;
+	top: 100%;
 }
 a{
 	text-shadow: 10px;
@@ -186,13 +186,13 @@ a{
 }
 #music{
 	position: relative;
-	bottom: -290px;
+	bottom: -550px;
 }
 section#image{
 	width: 100%;
 }
 h1{
-	top: 50px;
+	top: 120px;
 }
 
 }
