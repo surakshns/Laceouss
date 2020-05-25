@@ -4,7 +4,57 @@
 body{
 	margin: 0px;
 	padding: 0px;
-}   
+}  
+@keyframes animate{
+	0%{
+		background-color: white;
+	}
+	7%{
+		background-color: #707070;
+	}
+	14%{
+		background-color: #696969;
+	}
+	21%{
+		background-color: #686868;
+	}
+	28%{
+		background-color: #606060;
+	}
+	35%{
+		background-color: #585858;
+	}
+	42%{
+		background-color: #505050;
+	}
+	49%{
+		background-color: #484848;
+	}
+	56%{
+		background-color: #404040;
+	}
+	63%{
+		background-color: #404040;
+	}
+	70%{
+		background-color: #303030;
+	}
+	77%{
+		background-color: 	#282828;
+	}
+	84%{
+		background-color: #202020;
+	}
+	91%{
+		background-color: 	#101010;
+	}
+	100%{
+		background-color: #000000;
+	}
+}
+.title{
+	font-family: 'Abril Fatface', cursive;
+} 
 h1{
 	color: white;
 	position: relative;
@@ -49,7 +99,7 @@ section#image  > div{
 	font-family: 'Permanent Marker', cursive;
 	display: inline-block;
 	position: absolute;
-	bottom: -38px;
+	bottom: -40px;
 	
 
 }
@@ -67,8 +117,22 @@ a{
 
 
 
+
 @media (min-width: 0px) and (max-width: 673px){
-	
+section#image  > div{
+	width: 200px;
+	height: 200px;
+	left: 15%;
+	top: 100px;
+}
+a{
+	left: 200px;
+	top: 100px;
+}
+#music{
+	position: relative;
+	bottom: -400px;
+}
 
 }
 @media (min-width: 674px) and (max-width: 767px){

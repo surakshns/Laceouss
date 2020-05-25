@@ -10,16 +10,18 @@ window.addEventListener("scroll",(event) => {
 	if (top < scrollAmount) {
 			sad.style.opacity = 0;
 			happy.style.opacity = 1;
-            body.style.backgroundColor= "black";
             h1.style.color= "white";
             music.style.color= "black";
             music.style.backgroundColor= "white";
+            body.setAttribute("style","animation: animate 0.5s ease-in-out;")
+             body.style.backgroundColor= "black";
 
 
 	}else {
 			sad.style.opacity = 1;
 			happy.style.opacity = 0;
 			body.style.backgroundColor= "white";
+			body.style.animation= "ease-in-out";
 			music.style.color= "white";
 	}
 });
