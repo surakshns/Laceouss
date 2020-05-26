@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 body{
 	margin: 0px;
 	padding: 0px;
@@ -58,7 +58,7 @@ body{
 h1{
 	color: white;
 	position: relative;
-	top: 30px;
+	top: 60px;
 	font-family: 'Abril Fatface', cursive;
 }
 .col-xs-12, .col-md-12, .col-sm-12{
@@ -94,17 +94,18 @@ section#image  > div{
 }
 #music{
 	padding: 15px;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 20px;
+	padding-right: 0px;
 	color: white;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 40px;
 	display: inline-block;
 	position: absolute;
-	bottom: -40px;
+	bottom: -60px;
 	
 
 }
-a{
+.preorder{
 	position: relative;
 	left: 500px;
 	top: 200px;
@@ -112,20 +113,52 @@ a{
 	text-decoration: none;
 	color: black;
 	background-color: white;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 30px;
 }
-
+#music::before {
+	content: "";
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: red;
+	position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 900ms;
+}
+#music:hover::before{
+	width: 70%;
+}
+.preorder::before {
+	content: "";
+	display: block;
+	height: 7%;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 950ms;
+}
+.preorder:hover::before{
+	width: 100%;
+	background-color: #E8E8E8;
+	}
+.preorder:hover{
+	background-color: #E8E8E8;
+}
 
 /*SMALL MOBILE*/
 @media (min-width: 0px) and (max-width: 353px){
 section#image  > div{
 	width: 65vw;
 	height: 65vw;
-	left: 5%;
+	left: 10%;
 	top: 150px;
 }
-a{
-	font-size: 4vw;
+.preorder{
+	font-size: 28px;
 	text-shadow: 10px;
 	padding: 8px;
 	height: 20px;
@@ -133,7 +166,7 @@ a{
 	top: 90px;
 }
 #music{
-	font-size: 4vw;
+	font-size: 28px;
 	position: relative;
 	bottom: -350px;
 }
@@ -141,7 +174,7 @@ section#image{
 	width: 100%;
 }
 h1{
-	top: 50px;
+	top: 120px;
 }
 }
 /*MED MOB*/
@@ -149,10 +182,10 @@ h1{
 section#image  > div{
 	width: 280px;
 	height: 280px;
-	left: 0%;
+	left: 5%;
 	top: 100%;
 }
-a{
+.preorder{
 	text-shadow: 10px;
 	padding: 8px;
 	height: 20px;
@@ -175,10 +208,10 @@ h1{
 section#image  > div{
 	width: 330px;
 	height: 330px;
-	left: 0%;
+	left: 4vw;
 	top: 100%;
 }
-a{
+.preorder{
 	text-shadow: 10px;
 	padding: 8px;
 	height: 20px;
@@ -193,7 +226,7 @@ section#image{
 	width: 100%;
 }
 h1{
-	top: 150px;
+	top: 120px;
 }
 
 }
@@ -201,15 +234,16 @@ h1{
 section#image  > div{
 	width: 330px;
 	height: 330px;
-	left: 0%;
-	top: 100%;
+	top: 80%;
+	left: 8vw;
 }
-a{
+.preorder{
 	text-shadow: 10px;
 	padding: 8px;
 	height: 20px;
 	left: 270px;
-	top: 130px;
+	top: 150px;
+
 }
 #music{
 	position: relative;
@@ -219,20 +253,35 @@ section#image{
 	width: 100%;
 }
 h1{
-	top: 150px;
+	top: 120px;
 }
-
-}
-
 }
 @media (min-width: 638px) and (max-width: 767px){
-
+section#image  > div{
+	top: 70px;
+}
+.preorder{
+	left: 350px;
+}
 }
 @media (min-width: 768px) and (max-width: 991px){
-
+section#image  > div{
+	top: 70px;
+}
+.preorder{
+	left: 350px;
+}
+h1{
+	top: 80px;
+}
 }
 @media (min-width: 992px) and (max-width: 1199px){
-
+section#image  > div{
+	top: 70px;
+}
+h1{
+	top: 80px;
+}
 }
 /*LARGE SCREEN*/
 @media (min-width: 1200px){
@@ -240,10 +289,12 @@ h1{
 	bottom: -80px;
 }
 section#image  > div{
-	top: 80px;
+	width: 450px;
+	height: 450px;
+	top: 90px;
 }
 h1{
-	top: 80px;
+	top: 100px;
 }
 
 

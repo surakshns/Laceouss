@@ -11,10 +11,9 @@ window.addEventListener("scroll",(event) => {
 			sad.style.opacity = 0;
 			happy.style.opacity = 1;
             h1.style.color= "white";
-            music.style.color= "black";
-            music.style.backgroundColor= "white";
+            music.style.color= "white";
             body.setAttribute("style","animation: animate 0.5s ease-in-out;")
-             body.style.backgroundColor= "black";
+            body.style.backgroundColor= "black";
 
 
 	}else {
