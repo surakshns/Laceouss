@@ -76,7 +76,7 @@ section#image  > div{
 	width: 400px;
 	height: 400px;
 	position: absolute;
-	left: 12%;
+	left: 5%;
 	top: 15px;
 	background-size: cover; 
 	margin: auto;
@@ -258,29 +258,9 @@ h1{
 }
 @media (min-width: 638px) and (max-width: 767px){
 section#image  > div{
-	top: 70px;
-}
-.preorder{
-	left: 350px;
-}
-h1{
-	top: 80px;
-}
-}
-@media (min-width: 768px) and (max-width: 991px){
-section#image  > div{
-	top: 70px;
-}
-.preorder{
-	left: 350px;
-}
-h1{
-	top: 80px;
-}
-}
-@media (min-width: 992px) and (max-width: 1199px){
-section#image  > div{
-	top: 70px;
+	width: 500px;
+	height: 500px;
+	top: 50px;
 }
 .preorder{
 	left: 400px;
@@ -289,18 +269,47 @@ h1{
 	top: 80px;
 }
 }
+@media (min-width: 768px) and (max-width: 991px){
+section#image  > div{
+		width: 500px;
+	height: 500px;
+	left: 0px;
+	top: 50px;
+}
+.preorder{
+	left: 400px;
+}
+h1{
+	top: 100px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+section#image  > div{
+	width: 500px;
+	height: 500px;
+	left: 0%;	
+	top: 50px;
+}
+.preorder{
+	left: 400px;
+}
+h1{
+	top: 100px;
+}
+}
 /*LARGE SCREEN*/
 @media (min-width: 1200px){
 #music{
 	bottom: -80px;
 }
 section#image  > div{
-	width: 450px;
-	height: 450px;
-	top: 80px;
+	width: 500px;
+	height: 500px;
+	left: 3%;
+	top: 50px;
 }
 h1{
-	top: 100px;
+	top: 110px;
 }
 
 

@@ -22,7 +22,7 @@ window.addEventListener("scroll",(event) => {
             happy.style.top = "130%";
         }
             else{
-            	happy.style.top = "40%";
+            	happy.style.top = "25%";
             }
 
 	}else {
