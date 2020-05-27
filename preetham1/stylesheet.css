@@ -155,7 +155,7 @@ section#image  > div{
 	width: 65vw;
 	height: 65vw;
 	left: 10%;
-	top: 150px;
+	top: 90px;
 }
 .preorder{
 	font-size: 28px;
@@ -183,7 +183,7 @@ section#image  > div{
 	width: 280px;
 	height: 280px;
 	left: 5%;
-	top: 100%;
+	top: 70%;
 }
 .preorder{
 	text-shadow: 10px;
@@ -200,7 +200,7 @@ section#image{
 	width: 100%;
 }
 h1{
-	top: 140px;
+	top: 180px;
 }
 }
 /*LARGE MOB*/
@@ -209,7 +209,7 @@ section#image  > div{
 	width: 330px;
 	height: 330px;
 	left: 4vw;
-	top: 100%;
+	top: 90%;
 }
 .preorder{
 	text-shadow: 10px;
@@ -226,7 +226,7 @@ section#image{
 	width: 100%;
 }
 h1{
-	top: 140px;
+	top: 200px;
 }
 
 }
