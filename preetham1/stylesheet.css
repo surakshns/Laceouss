@@ -67,16 +67,16 @@ h1{
 section#image{
 position: relative;
   display: block;
-  width: 500px;
+  width: 450px;
   padding: 25%;
   top: 30px;
   margin: auto;
 }
 section#image  > div{
-	width: 400px;
-	height: 400px;
+	width: 450px;
+	height: 450px;
 	position: absolute;
-	left: 5%;
+	left: 0%;
 	top: 15px;
 	background-size: cover; 
 	margin: auto;
@@ -183,7 +183,7 @@ section#image  > div{
 	width: 280px;
 	height: 280px;
 	left: 5%;
-	top: 70%;
+	top: 100%;
 }
 .preorder{
 	text-shadow: 10px;
@@ -204,12 +204,12 @@ h1{
 }
 }
 /*LARGE MOB*/
-@media (min-width: 385px) and (max-width: 425px){
+@media (min-width: 385px) and (max-width: 459px){
 section#image  > div{
 	width: 330px;
 	height: 330px;
 	left: 4vw;
-	top: 90%;
+	top: 80%;
 }
 .preorder{
 	text-shadow: 10px;
@@ -226,11 +226,11 @@ section#image{
 	width: 100%;
 }
 h1{
-	top: 200px;
+	top: 210px;
 }
 
 }
-@media (min-width: 426px) and (max-width: 637px){
+@media (min-width: 460px) and (max-width: 637px){
 section#image  > div{
 	width: 330px;
 	height: 330px;
@@ -258,12 +258,10 @@ h1{
 }
 @media (min-width: 638px) and (max-width: 767px){
 section#image  > div{
-	width: 500px;
-	height: 500px;
-	top: 50px;
+	top: 70px;
 }
 .preorder{
-	left: 400px;
+	left: 350px;
 }
 h1{
 	top: 80px;
@@ -271,30 +269,24 @@ h1{
 }
 @media (min-width: 768px) and (max-width: 991px){
 section#image  > div{
-		width: 500px;
-	height: 500px;
-	left: 0px;
-	top: 50px;
+	top: 70px;
 }
 .preorder{
-	left: 400px;
+	left: 350px;
 }
 h1{
-	top: 100px;
+	top: 80px;
 }
 }
 @media (min-width: 992px) and (max-width: 1199px){
 section#image  > div{
-	width: 500px;
-	height: 500px;
-	left: 0%;	
-	top: 50px;
+	top: 40px;
 }
 .preorder{
 	left: 400px;
 }
 h1{
-	top: 100px;
+	top: 90px;
 }
 }
 /*LARGE SCREEN*/
@@ -303,13 +295,13 @@ h1{
 	bottom: -80px;
 }
 section#image  > div{
-	width: 500px;
-	height: 500px;
-	left: 3%;
-	top: 50px;
+	width: 450px;
+	height: 450px;
+	left: 8%;
+	top: 20px;
 }
 h1{
-	top: 110px;
+	top: 100px;
 }
 
 

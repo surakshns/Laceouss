@@ -4,7 +4,7 @@ const happy = document.querySelector('#happy');
 const body = document.querySelector('body');
 const h1 = document.querySelector('h1');
 const music = document.querySelector('#music');
-const media = matchMedia('(max-width: 425px)')
+const media = matchMedia('(max-width: 450px)')
 console.log(media.matches);
 const scrollAmount = 55;
 window.addEventListener("scroll",(event) => {
@@ -22,7 +22,7 @@ window.addEventListener("scroll",(event) => {
             happy.style.top = "130%";
         }
             else{
-            	happy.style.top = "25%";
+            	happy.style.top = "15%";
             }
 
 	}else {
