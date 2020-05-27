@@ -174,7 +174,7 @@ section#image{
 	width: 100%;
 }
 h1{
-	top: 120px;
+	top: 140px;
 }
 }
 /*MED MOB*/
@@ -200,7 +200,7 @@ section#image{
 	width: 100%;
 }
 h1{
-	top: 120px;
+	top: 140px;
 }
 }
 /*LARGE MOB*/
@@ -216,7 +216,7 @@ section#image  > div{
 	padding: 8px;
 	height: 20px;
 	left: 270px;
-	top: 130px;
+	top: 140px;
 }
 #music{
 	position: relative;
@@ -226,7 +226,7 @@ section#image{
 	width: 100%;
 }
 h1{
-	top: 120px;
+	top: 140px;
 }
 
 }
@@ -235,7 +235,7 @@ section#image  > div{
 	width: 330px;
 	height: 330px;
 	top: 80%;
-	left: 8vw;
+	left: 8%;
 }
 .preorder{
 	text-shadow: 10px;
@@ -263,6 +263,9 @@ section#image  > div{
 .preorder{
 	left: 350px;
 }
+h1{
+	top: 80px;
+}
 }
 @media (min-width: 768px) and (max-width: 991px){
 section#image  > div{
@@ -279,6 +282,9 @@ h1{
 section#image  > div{
 	top: 70px;
 }
+.preorder{
+	left: 400px;
+}
 h1{
 	top: 80px;
 }
@@ -291,7 +297,7 @@ h1{
 section#image  > div{
 	width: 450px;
 	height: 450px;
-	top: 90px;
+	top: 80px;
 }
 h1{
 	top: 100px;
