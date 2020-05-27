@@ -183,7 +183,7 @@ section#image  > div{
 	width: 280px;
 	height: 280px;
 	left: 5%;
-	top: 60%;
+	top: 40%;
 }
 .preorder{
 	text-shadow: 10px;
@@ -220,7 +220,7 @@ section#image  > div{
 }
 #music{
 	position: relative;
-	bottom: -550px;
+	bottom: -590px;
 }
 section#image{
 	width: 100%;
