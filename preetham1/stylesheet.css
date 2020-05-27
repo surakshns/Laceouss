@@ -209,7 +209,7 @@ section#image  > div{
 	width: 330px;
 	height: 330px;
 	left: 4vw;
-	top: 80%;
+	top: 40%;
 }
 .preorder{
 	text-shadow: 10px;
@@ -253,7 +253,7 @@ section#image{
 	width: 100%;
 }
 h1{
-	top: 120px;
+	top: 210px;
 }
 }
 @media (min-width: 638px) and (max-width: 767px){
