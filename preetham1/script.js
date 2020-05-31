@@ -25,10 +25,13 @@ window.addEventListener("scroll",(event) => {
 		body.setAttribute("style","animation: animate 600ms ease-in-out;")
 		body.style.backgroundColor= "black";
 		happy.style.top = "15%";
-		music.setAttribute("style","animation: coming 1000ms ease-out;")
-		preorder.setAttribute("style","animation: come 1500ms ease-out;")
+		preorder.setAttribute("style","animation: come 2000ms ease-out;")
 		if (media.matches == true) {
 			happy.style.top = "50%";
+			music.setAttribute("style","animation: comingmob 1000ms ease-out;")
+		}
+		else {
+			music.setAttribute("style","animation: coming 1000ms ease-out;")
 		}
 	}else {
 		sad.style.opacity = 1;

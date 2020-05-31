@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+*{
+	scroll-behavior: smooth;
+}
 body{
 	margin: 0px;
 	padding: 0px;
@@ -56,6 +59,10 @@ body{
 	0% {transform: translateY(200px)}
 	100% {transform: translateY(0px)}
 }
+@keyframes comingmob {
+	0% {transform: translateX(200px)}
+	100% {transform: translateX(0px)}
+}
 @keyframes come {
 	from {opacity: 0;padding: 20px;}
 	to {opacity: 1;padding: 10px;}
@@ -109,12 +116,12 @@ section#image  > div{
 	left: 420px;
 	top: 200px;
 	padding: 10px;
-	text-decoration: none;
 	color: black;
 	background-color: white;
 	font-family: 'Six Caps', sans-serif;
 	font-size: 35px;
 }
+
 /* MUSIC HOVER */
 #music::before {
 	content: "";
@@ -122,6 +129,7 @@ section#image  > div{
 	height: 5px;
 	width: 100%;
 	background-color: red;
+	display: fixed;
 	position: absolute;
     top: 0;
     width: 0%;
@@ -149,6 +157,8 @@ section#image  > div{
 	}
 .preorder:hover{
 	background-color: #E8E8E8;
+	color: black;
+	text-decoration: none;
 }
 @media (min-width: 0px) and (max-width: 425px){
 	section{
