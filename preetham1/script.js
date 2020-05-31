@@ -8,7 +8,7 @@ const media = matchMedia('(max-width: 425px)')
 console.log(media.matches);
 var scrollAmount
 if (media.matches == true) {
-		scrollAmount = 150;
+		scrollAmount = 120;
 }
 else{
 	  scrollAmount = 2;
@@ -21,7 +21,7 @@ window.addEventListener("scroll",(event) => {
 		h1.style.color= "white";
 		h1.style.opacity= 1;
 		music.style.color= "white";
-		body.setAttribute("style","animation: animate 0.5s ease-in-out;")
+		body.setAttribute("style","animation: animate 1s ease-in-out;")
 		body.style.backgroundColor= "black";
 		happy.style.top = "15%";
 		if (media.matches == true) {

@@ -142,7 +142,7 @@ section#image  > div{
 .preorder:hover{
 	background-color: #E8E8E8;
 }
-@media (min-width: 0px) and (max-width: 500px){
+@media (min-width: 0px) and (max-width: 425px){
 	section{
 		width: 300px;
 		height: 300px;
@@ -163,7 +163,28 @@ section#image  > div{
 		bottom: -180px;
 	}
 }
-@media (min-width: 501px) and (max-width: 1400px){
+@media (min-width: 426px) and (max-width: 575px){
+	section{
+		width: 350px;
+		height: 350px;
+		left: 50%;
+		top: 50%;
+		margin-left: -175px;
+		margin-top: -175px;
+	}
+	h1{
+		top: 10%;
+	}
+	.preorder{
+		left: 250px;
+		top: 150px;
+		font-size: 20px;
+	}
+	#music{
+		bottom: -200px;
+	}
+}
+@media (min-width: 576px) and (max-width: 1400px){
 	#music{
 		bottom: -80px;
 	}
