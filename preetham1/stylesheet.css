@@ -155,7 +155,7 @@ section#image  > div{
 		top: 10%;
 	}
 	.preorder{
-		left: 250px;
+		left: 230px;
 		top: 150px;
 		font-size: 20px;
 	}
@@ -176,12 +176,12 @@ section#image  > div{
 		top: 30%;
 	}
 	.preorder{
-		left: 250px;
+		left: 280px;
 		top: 150px;
 		font-size: 20px;
 	}
 	#music{
-		bottom: -250px;
+		bottom: -180px;
 	}
 }
 @media (min-width: 576px) and (max-width: 1400px){
