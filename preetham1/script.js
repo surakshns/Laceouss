@@ -8,7 +8,7 @@ const media = matchMedia('(max-width: 425px)')
 console.log(media.matches);
 var scrollAmount
 if (media.matches == true) {
-		scrollAmount = 100;
+		scrollAmount = 150;
 }
 else{
 	  scrollAmount = 2;
