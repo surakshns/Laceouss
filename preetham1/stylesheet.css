@@ -173,7 +173,7 @@ section#image  > div{
 		margin-top: -175px;
 	}
 	h1{
-		top: 10%;
+		top: 30%;
 	}
 	.preorder{
 		left: 250px;
@@ -181,7 +181,7 @@ section#image  > div{
 		font-size: 20px;
 	}
 	#music{
-		bottom: -200px;
+		bottom: -250px;
 	}
 }
 @media (min-width: 576px) and (max-width: 1400px){

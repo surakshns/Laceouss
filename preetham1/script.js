@@ -21,7 +21,7 @@ window.addEventListener("scroll",(event) => {
 		h1.style.color= "white";
 		h1.style.opacity= 1;
 		music.style.color= "white";
-		body.setAttribute("style","animation: animate 1s ease-in-out;")
+		body.setAttribute("style","animation: animate 0.8s ease-in-out;")
 		body.style.backgroundColor= "black";
 		happy.style.top = "15%";
 		if (media.matches == true) {
