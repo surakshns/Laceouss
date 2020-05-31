@@ -55,6 +55,7 @@ body{
 h1{
 	color: white;
 	position: relative;
+	top: 13%;
 	font-family: 'Abril Fatface', cursive;
   opacity: 0;
 }
@@ -143,31 +144,10 @@ section#image  > div{
 	background-color: #E8E8E8;
 }
 @media (min-width: 0px) and (max-width: 425px){
-	section{
-		width: 300px;
-		height: 300px;
-		left: 50%;
-		top: 50%;
-		margin-left: -150px;
-		margin-top: -150px;
-	}
-	h1{
-		top: 10%;
-	}
-	.preorder{
-		left: 250px;
-		top: 150px;
-		font-size: 20px;
-	}
-	#music{
-		bottom: -180px;
-	}
+
 }
-@media (min-width: 426px) and (max-width: 1400px){
+@media (min-width: 426px) and (max-width: 1200px){
 	#music{
-		bottom: -80px;
-	}
-	h1{
-		top: 3%;
+		bottom: -300
 	}
 }
