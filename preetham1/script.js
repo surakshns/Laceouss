@@ -4,8 +4,9 @@ const happy = document.querySelector('#happy');
 const body = document.querySelector('body');
 const h1 = document.querySelector('h1');
 const music = document.querySelector('#music');
+const preorder = document.querySelector('.preorder')
 const media = matchMedia('(max-width: 575px)')
-console.log(media.matches);
+console.log(preorder);
 var scrollAmount
 if (media.matches == true) {
 		scrollAmount = 200;
@@ -21,9 +22,11 @@ window.addEventListener("scroll",(event) => {
 		h1.style.color= "white";
 		h1.style.opacity= 1;
 		music.style.color= "white";
-		body.setAttribute("style","animation: animate 0.8s ease-in-out;")
+		body.setAttribute("style","animation: animate 600ms ease-in-out;")
 		body.style.backgroundColor= "black";
 		happy.style.top = "15%";
+		music.setAttribute("style","animation: coming 1000ms ease-out;")
+		preorder.setAttribute("style","animation: come 1500ms ease-out;")
 		if (media.matches == true) {
 			happy.style.top = "50%";
 		}
@@ -32,6 +35,8 @@ window.addEventListener("scroll",(event) => {
 		happy.style.opacity = 0;
 		body.style.backgroundColor= "white";
 		body.style.animation= "ease-in-out";
+		music.style.animation= "ease-in-out";
+		preorder.style.animation= "ease-in-out";
 		music.style.color= "white";
 		h1.style.opacity= 0;
 			// sad.style.top= "40%";

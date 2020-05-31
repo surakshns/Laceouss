@@ -52,6 +52,14 @@ body{
 		background-color: #000000;
 	}
 }
+@keyframes coming {
+	0% {transform: translateY(200px)}
+	100% {transform: translateY(0px)}
+}
+@keyframes come {
+	from {opacity: 0;padding: 25px;}
+	to {opacity: 1;padding: 15px;}
+}
 h1{
 	color: white;
 	position: relative;
@@ -98,14 +106,14 @@ section#image  > div{
 }
 .preorder{
 	position: absolute;
-	left: 400px;
+	left: 420px;
 	top: 200px;
 	padding: 15px;
 	text-decoration: none;
 	color: black;
 	background-color: white;
 	font-family: 'Six Caps', sans-serif;
-	font-size: 30px;
+	font-size: 35px;
 }
 /* MUSIC HOVER */
 #music::before {
@@ -157,7 +165,8 @@ section#image  > div{
 	.preorder{
 		left: 230px;
 		top: 150px;
-		font-size: 20px;
+		font-size: 24px;
+		padding: 8px;
 	}
 	#music{
 		bottom: -180px;
@@ -178,7 +187,8 @@ section#image  > div{
 	.preorder{
 		left: 280px;
 		top: 150px;
-		font-size: 20px;
+		font-size: 27px;
+		padding: 8px;
 	}
 	#music{
 		bottom: -180px;
