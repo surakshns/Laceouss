@@ -7,8 +7,7 @@ const music = document.querySelector('#music');
 const preorder = document.querySelector('.preorder')
 const media = matchMedia('(max-width: 400px)')
 const mediamob = matchMedia('(max-width: 575px)')
-const mediaheight = matchMedia('(min-height: 750px) and (max-height: 1600px)')
-const mediamac = matchMedia('(min-height: 1600px)')
+const mediaheight = matchMedia('(min-height: 750px)')
 console.log(preorder);
 var scrollAmount
 if (media.matches == true) {
@@ -18,13 +17,10 @@ else if (mediamob.matches == true) {
 	  scrollAmount = 180;
 }
 else{
-	  scrollAmount = 5;
+	  scrollAmount = 9;
 }
 if (mediaheight.matches == true){
 	 scrollAmount = 180;
-}
-else {
-	scrollAmount = 15
 }
 window.addEventListener("scroll",(event) => {
 	const { top } = image.getBoundingClientRect();

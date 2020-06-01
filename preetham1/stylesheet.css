@@ -182,13 +182,13 @@ section#image  > div{
 		left: 0px;
 	}
 }
-@media (min-width: 576px) and (max-width: 1600px){
+@media (min-width: 576px){
 	#music{
 		bottom: -80px;
 	}
 	#video{
-		bottom: -10px;
-		right: 15px;
+		bottom: -120px;
+		left: 0px;
 	}
 	h1{
 		font-size: 60px;
