@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 *{
 	scroll-behavior: smooth;
 }
@@ -23,7 +24,7 @@ body{
 h1{
 	color: white;
 	position: relative;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Great Vibes', cursive;
   opacity: 0;
 }
 section{
@@ -48,7 +49,7 @@ section#image  > div{
      background-position: center;
 }
 #happy{
-	background-image: url("https://wallpaperaccess.com/full/1499967.jpg");
+	background-image: url('happy.jpeg');
 	 opacity: 0;
 	   background-position: center;
 
@@ -63,18 +64,20 @@ section#image  > div{
 	display: inline-block;
 	position: absolute;
 	bottom: -130px;
+	left: 0px;
 }
 #video{
 	padding: 15px;
 	padding-left: 20px;
 	padding-right: 0px;
+	width: 65px;
 	color: white;
 	font-family: 'Six Caps', sans-serif;
 	font-size: 35px;
 	display: inline-block;
 	position: absolute;
-	bottom: -130px;
-	right: 15px;
+	bottom: -580px;
+	left: 0px;
 }
 .preorder{
 	position: absolute;
@@ -105,7 +108,7 @@ section#image  > div{
     transition: all ease-in-out 900ms;
 }
 #music:hover::before{
-	width: 70%;
+	width: 71%;
 }
 /* VIDEO HOVER */
 #video::before {
@@ -148,8 +151,8 @@ section#image  > div{
 	}
 	#video{
 		font-size: 30px;
-		bottom: -180px;
-		right: 15px;
+		bottom: -120px;
+		left: 0px;
 	}
 }
 @media (min-width: 426px) and (max-width: 575px){
@@ -178,15 +181,16 @@ section#image  > div{
 		right: 15px;
 	}
 }
-@media (min-width: 576px) and (max-width: 1400px){
+@media (min-width: 576px) and (max-width: 1600px){
 	#music{
 		bottom: -80px;
 	}
 	#video{
-		bottom: -80px;
+		bottom: -10px;
 		right: 15px;
 	}
 	h1{
+		font-size: 60px;
 		top: 6%;
 	}
 }

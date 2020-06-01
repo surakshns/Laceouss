@@ -40,7 +40,7 @@ window.addEventListener("scroll",(event) => {
 			happy.style.top = "50%";
 		}
 		else {
-			happy.style.top = "15%";
+			happy.style.top = "20%";
 		}
 	}else {
 		sad.style.opacity = 1;
