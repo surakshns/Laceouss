@@ -26,17 +26,17 @@ h1{
 	position: relative;
 	font-family: 'Great Vibes', cursive;
   opacity: 0;
-	font-size: 60px;
-	top: 25%;
+	font-size: 70px;
+	top: 15%;
 }
 section{
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -250px;
-  margin-top: -250px;
+  margin-left: -225px;
+  margin-top: -225px;
 }
 section#image  > div{
 	width: 100%;
@@ -60,6 +60,7 @@ section#image  > div{
 	padding: 15px;
 	padding-left: 20px;
 	padding-right: 0px;
+	padding-top: 5px;
 	color: white;
 	font-family: 'Six Caps', sans-serif;
 	font-size: 35px;
@@ -72,6 +73,7 @@ section#image  > div{
 	padding: 15px;
 	padding-left: 20px;
 	padding-right: 0px;
+	padding-top: 5px;
 	width: 65px;
 	color: white;
 	font-family: 'Six Caps', sans-serif;
@@ -89,7 +91,8 @@ section#image  > div{
 	color: black;
 	background-color: #e60000;
 	font-family: 'Six Caps', sans-serif;
-	font-size: 28px;
+	font-size: 27px;
+	border: 1px white;
 }
 .preorder:hover{
 	text-decoration: none;
@@ -142,9 +145,11 @@ section#image  > div{
 	}
 	#music{
 		font-size: 30px;
+			bottom: -120px;
 	}
 	#video{
 		font-size: 30px;
+			bottom: -180px;
 	}
 }
 @media (min-width: 426px) and (max-width: 575px){
@@ -155,7 +160,7 @@ section#image  > div{
 		margin-top: -175px;
 	}
 	h1{
-		top: 10%;
+		top: 5%;
 	}
 	.preorder{
 		left: 280px;
@@ -163,8 +168,14 @@ section#image  > div{
 	}
 }
 @media (min-width: 576px){
-	#music{
+	h1{
+		top: 6%;
+	}
+	#video{
 		bottom: -120px;
+	}
+	#music{
+		bottom: -60px;
 	}
 	.preorder{
 		top: 180px;
