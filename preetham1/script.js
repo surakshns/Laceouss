@@ -9,10 +9,10 @@ const media = matchMedia('(max-width: 575px)')
 console.log(preorder);
 var scrollAmount
 if (media.matches == true) {
-		scrollAmount = 200;
+		scrollAmount = 50;
 }
 else{
-	  scrollAmount = 2;
+	  scrollAmount = 1;
 }
 window.addEventListener("scroll",(event) => {
 	const { top } = image.getBoundingClientRect();
@@ -22,16 +22,15 @@ window.addEventListener("scroll",(event) => {
 		h1.style.color= "white";
 		h1.style.opacity= 1;
 		music.style.color= "white";
-		body.setAttribute("style","animation: animate 600ms ease-in-out;")
+		body.setAttribute("style","animation: animate 1500ms ease-in-out;")
 		body.style.backgroundColor= "black";
 		happy.style.top = "15%";
-		preorder.setAttribute("style","animation: come 2000ms ease-out;")
+		preorder.setAttribute("style","animation: come 1500ms ease-out;")
 		if (media.matches == true) {
 			happy.style.top = "50%";
-			music.setAttribute("style","animation: comingmob 1000ms ease-out;")
 		}
 		else {
-			music.setAttribute("style","animation: coming 1000ms ease-out;")
+
 		}
 	}else {
 		sad.style.opacity = 1;

@@ -1,0 +1,12 @@
+/* FOR ELEMENT COMING FROM RIGHT */
+music.setAttribute("style","animation: comingmob 1000ms ease-out;")/*JS*/
+
+@keyframes comingmob {
+	0% {transform: translateX(200px)}
+	100% {transform: translateX(0px)}
+}
+/* FOR ELEMENT COMING FROM DOWN */
+@keyframes coming {
+	0% {transform: translateY(200px)}
+	100% {transform: translateY(0px)}
+}
