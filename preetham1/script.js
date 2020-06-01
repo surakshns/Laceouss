@@ -36,8 +36,8 @@ window.addEventListener("scroll",(event) => {
 		if (media.matches == true) {
 			happy.style.top = "50%";
 		}
-		else if (media.matches == true) {
-			happy.style.top = "50%";
+		else if (mediamob.matches == true) {
+			happy.style.top = "40%";
 		}
 		else {
 			happy.style.top = "15%";
