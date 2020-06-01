@@ -9,7 +9,7 @@ const media = matchMedia('(max-width: 575px)')
 console.log(preorder);
 var scrollAmount
 if (media.matches == true) {
-		scrollAmount = 50;
+		scrollAmount = 80;
 }
 else{
 	  scrollAmount = 1;
