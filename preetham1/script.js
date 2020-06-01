@@ -5,18 +5,22 @@ const body = document.querySelector('body');
 const h1 = document.querySelector('h1');
 const music = document.querySelector('#music');
 const preorder = document.querySelector('.preorder')
-const media = matchMedia('(max-width: 425px)')
+const media = matchMedia('(max-width: 400px)')
 const mediamob = matchMedia('(max-width: 575px)')
+const mediaheight = matchMedia('(min-height: 750px)')
 console.log(preorder);
 var scrollAmount
 if (media.matches == true) {
-		scrollAmount = 60;
+		scrollAmount = 50;
 }
 else if (mediamob.matches == true) {
 	  scrollAmount = 180;
 }
 else{
 	  scrollAmount = 1;
+}
+if (mediaheight.matches == true){
+	 scrollAmount = 180;
 }
 window.addEventListener("scroll",(event) => {
 	const { top } = image.getBoundingClientRect();
