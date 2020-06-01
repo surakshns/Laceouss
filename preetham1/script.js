@@ -17,7 +17,7 @@ else if (mediamob.matches == true) {
 	  scrollAmount = 180;
 }
 else{
-	  scrollAmount = 10;
+	  scrollAmount = 60;
 }
 if (mediaheight.matches == true){
 	 scrollAmount = 180;
