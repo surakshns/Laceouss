@@ -82,13 +82,14 @@ section#image  > div{
 	top: 200px;
 	padding: 10px;
 	color: black;
-	background-color: white;
+	background-color: #e60000;
 	font-family: 'Six Caps', sans-serif;
-	font-size: 35px;
+	font-size: 28px;
 }
-.perorder:hover{
+.preorder:hover{
 	text-decoration: none;
 	color: black;
+	background-color: #ffffff;
 }
 /* MUSIC HOVER */
 #music::before {
