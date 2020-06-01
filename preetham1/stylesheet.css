@@ -177,8 +177,8 @@ section#image  > div{
 		bottom: -180px;
 	}
 	#video{
-		bottom: -180px;
-		right: 15px;
+		bottom: -120px;
+		left: 0px;
 	}
 }
 @media (min-width: 576px) and (max-width: 1600px){
