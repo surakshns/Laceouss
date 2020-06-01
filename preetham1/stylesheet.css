@@ -26,6 +26,8 @@ h1{
 	position: relative;
 	font-family: 'Great Vibes', cursive;
   opacity: 0;
+	font-size: 60px;
+	top: 25%;
 }
 section{
   width: 500px;
@@ -63,7 +65,7 @@ section#image  > div{
 	font-size: 35px;
 	display: inline-block;
 	position: absolute;
-	bottom: -130px;
+	bottom: -120px;
 	left: 0px;
 }
 #video{
@@ -76,13 +78,13 @@ section#image  > div{
 	font-size: 35px;
 	display: inline-block;
 	position: absolute;
-	bottom: -580px;
+	bottom: -180px;
 	left: 0px;
 }
 .preorder{
 	position: absolute;
 	left: 420px;
-	top: 200px;
+	top: 150px;
 	padding: 10px;
 	color: black;
 	background-color: #e60000;
@@ -103,9 +105,9 @@ section#image  > div{
 	background-color: red;
 	display: fixed;
 	position: absolute;
-    top: 0;
-    width: 0%;
-    transition: all ease-in-out 900ms;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 900ms;
 }
 #music:hover::before{
 	width: 71%;
@@ -131,67 +133,40 @@ section#image  > div{
 	section{
 		width: 300px;
 		height: 300px;
-		left: 50%;
-		top: 50%;
 		margin-left: -150px;
 		margin-top: -150px;
 	}
-	h1{
-		top: 25%;
-	}
 	.preorder{
 		left: 230px;
-		top: 150px;
 		font-size: 24px;
-		padding: 10px;
 	}
 	#music{
-		bottom: -180px;
 		font-size: 30px;
 	}
 	#video{
 		font-size: 30px;
-		bottom: -120px;
-		left: 0px;
 	}
 }
 @media (min-width: 426px) and (max-width: 575px){
 	section{
 		width: 350px;
 		height: 350px;
-		left: 50%;
-		top: 50%;
 		margin-left: -175px;
 		margin-top: -175px;
 	}
 	h1{
-		font-size: 60px;
 		top: 10%;
 	}
 	.preorder{
 		left: 280px;
-		top: 150px;
 		font-size: 27px;
-		padding: 10px;
-	}
-	#music{
-		bottom: -180px;
-	}
-	#video{
-		bottom: -120px;
-		left: 0px;
 	}
 }
 @media (min-width: 576px){
 	#music{
-		bottom: -80px;
-	}
-	#video{
 		bottom: -120px;
-		left: 0px;
 	}
-	h1{
-		font-size: 60px;
-		top: 3%;
+	.preorder{
+		top: 180px;
 	}
 }

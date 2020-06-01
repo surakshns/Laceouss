@@ -17,7 +17,7 @@ else if (mediamob.matches == true) {
 	  scrollAmount = 180;
 }
 else{
-	  scrollAmount = 9;
+	  scrollAmount = 8;
 }
 if (mediaheight.matches == true){
 	 scrollAmount = 180;
@@ -40,7 +40,7 @@ window.addEventListener("scroll",(event) => {
 			happy.style.top = "50%";
 		}
 		else {
-			happy.style.top = "20%";
+			happy.style.top = "40%";
 		}
 	}else {
 		sad.style.opacity = 1;
