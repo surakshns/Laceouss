@@ -5,11 +5,15 @@ const body = document.querySelector('body');
 const h1 = document.querySelector('h1');
 const music = document.querySelector('#music');
 const preorder = document.querySelector('.preorder')
-const media = matchMedia('(max-width: 575px)')
+const media = matchMedia('(max-width: 425px)')
+const mediamob = matchMedia('(max-width: 575px)')
 console.log(preorder);
 var scrollAmount
 if (media.matches == true) {
-		scrollAmount = 110;
+		scrollAmount = 60;
+}
+else if (mediamob.matches == true) {
+	  scrollAmount = 180;
 }
 else{
 	  scrollAmount = 1;
@@ -24,13 +28,15 @@ window.addEventListener("scroll",(event) => {
 		music.style.color= "white";
 		body.setAttribute("style","animation: animate 1500ms ease-in-out;")
 		body.style.backgroundColor= "black";
-		happy.style.top = "15%";
 		preorder.setAttribute("style","animation: come 1500ms ease-out;")
 		if (media.matches == true) {
 			happy.style.top = "50%";
 		}
+		else if (media.matches == true) {
+			happy.style.top = "50%";
+		}
 		else {
-
+			happy.style.top = "15%";
 		}
 	}else {
 		sad.style.opacity = 1;
