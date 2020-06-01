@@ -30,14 +30,14 @@ window.addEventListener("scroll",(event) => {
 		h1.style.color= "white";
 		h1.style.opacity= 1;
 		music.style.color= "white";
-		body.setAttribute("style","animation: animate 1500ms ease-in-out;")
+		body.setAttribute("style","animation: animate 1000ms ease-in-out;")
 		body.style.backgroundColor= "black";
-		preorder.setAttribute("style","animation: come 1500ms ease-out;")
+		preorder.setAttribute("style","animation: come 1000ms ease-out;")
 		if (media.matches == true) {
 			happy.style.top = "50%";
 		}
 		else if (mediamob.matches == true) {
-			happy.style.top = "40%";
+			happy.style.top = "50%";
 		}
 		else {
 			happy.style.top = "15%";
