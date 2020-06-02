@@ -30,7 +30,7 @@ body{
 	}
 }
 h1{
-	color: #CFB53B;
+	color: #ff0000;
 	position: relative;
 	font-family: 'Great Vibes', cursive;
   opacity: 0;
@@ -114,8 +114,8 @@ section#image  > div{
 	left: 420px;
 	top: 150px;
 	padding: 10px;
-	color: black;
-	background-color: #e60000;
+	color: #05ff05;
+	background-color: #000000;
 	font-family: 'Six Caps', sans-serif;
 	font-size: 27px;
 	border: 1px white;
@@ -150,9 +150,9 @@ section#image  > div{
 	background-color: red;
 	display: fixed;
 	position: absolute;
-    top: 0;
-    width: 0%;
-    transition: all ease-in-out 900ms;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 900ms;
 }
 #video:hover::before{
 	width: 70%;
@@ -204,9 +204,10 @@ a:hover{
 		bottom: -15%;
 	}
 	#music{
-		bottom: -45px;
+		bottom: -7%;
 	}
 	.preorder{
+		font-size: 27px;
 		top: 180px;
 	}
 	#spice{
