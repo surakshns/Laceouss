@@ -21,6 +21,14 @@ body{
 	from {opacity: 0;padding: 20px;}
 	to {opacity: 1;padding: 10px;}
 }
+@keyframes spice {
+	0%{
+		background-position: left 0px top 10px;
+	}
+	40%{
+		background-position: left 800px top 10px;
+	}
+}
 h1{
 	color: #CFB53B;
 	position: relative;
@@ -46,7 +54,7 @@ section#image  > div{
 	margin: auto;
 }
 #sad{
-	background-image: url("https://vignette.wikia.nocookie.net/batman/images/c/c0/Facepaint.png/revision/latest?cb=20200320213434");
+	background-image: url("sad.jpeg");
     opacity: 1;
      background-position: center;
 }
@@ -82,6 +90,24 @@ section#image  > div{
 	position: absolute;
 	bottom: -180px;
 	left: 0px;
+}
+#spice{
+	padding: 15px;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-top: 5px;
+	width: auto;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 30px;
+	display: inline-block;
+	position: absolute;
+	bottom: -180px;
+	right: 0px;
+	color: rgba(255, 225, 225, 0.1);
+	background-image: url('https://images.pond5.com/huge-blood-splash-footage-000129538_prevstill.jpeg');
+	-webkit-background-clip: text;
+	animation: spice 15s linear infinite;
+	background-repeat: repeat-x repeat-y;
 }
 .preorder{
 	position: absolute;
@@ -131,6 +157,9 @@ section#image  > div{
 #video:hover::before{
 	width: 70%;
 }
+a:hover{
+	text-decoration: none;
+}
 
 @media (min-width: 0px) and (max-width: 425px){
 	section{
@@ -172,12 +201,15 @@ section#image  > div{
 		top: 6%;
 	}
 	#video{
-		bottom: -120px;
+		bottom: -105px;
 	}
 	#music{
-		bottom: -60px;
+		bottom: -45px;
 	}
 	.preorder{
 		top: 180px;
+	}
+	#spice{
+		bottom: -105px;
 	}
 }
