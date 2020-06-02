@@ -118,7 +118,7 @@ section#image  > div{
 	background-color: #000000;
 	font-family: 'Six Caps', sans-serif;
 	font-size: 27px;
-	border: 1px white;
+	border: 1px white solid;
 }
 .preorder:hover{
 	text-decoration: none;
