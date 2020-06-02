@@ -5,24 +5,31 @@ const body = document.querySelector('body');
 const h1 = document.querySelector('h1');
 const music = document.querySelector('#music');
 const preorder = document.querySelector('.preorder')
-const media = matchMedia('(max-width: 400px)')
-const mediamob = matchMedia('(max-width: 575px)')
-const mediaheight = matchMedia('(min-height: 786px)')
-const mediamac = matchMedia('(min-height: 686px) and (max-height: 785px)')
-console.log(preorder);
+const mediasp = matchMedia('(max-width: 400px)')
+const mediamp = matchMedia('(max-width: 575px)')
+const medialp = matchMedia('(min-height: 740px)')
+const mediamidlap = matchMedia('(min-height: 786px) and (max-height: 1099px)')
+const medialarglap = matchMedia('(min-height: 1100px) and (max-height: 1555px)')
 var scrollAmount
-if (media.matches == true) {
+if (mediasp.matches == true) {
 		scrollAmount = 50;
 }
-else if (mediamob.matches == true) {
+else if (mediamp.matches == true) {
 	  scrollAmount = 180;
 }
-if (mediaheight.matches == true){
-	 scrollAmount = 240;
+else{
+	  scrollAmount = 50;
 }
-if (mediamac.matches) {
-	 scrollAmount = 150;
+if (medialp.matches == true & mediamp.matches == true){
+	 scrollAmount = 195;
 }
+if (mediamidlap.matches) {
+	 scrollAmount = 160;
+}
+else if (medialarglap.matches) {
+	 scrollAmount = 320;
+}
+
 window.addEventListener("scroll",(event) => {
 	const { top } = image.getBoundingClientRect();
 	if (top < scrollAmount) {
@@ -34,10 +41,10 @@ window.addEventListener("scroll",(event) => {
 		body.setAttribute("style","animation: animate 1000ms ease-in-out;")
 		body.style.backgroundColor= "black";
 		preorder.setAttribute("style","animation: come 1000ms ease-out;")
-		if (media.matches == true) {
+		if (mediasp.matches == true) {
 			happy.style.top = "50%";
 		}
-		else if (mediamob.matches == true) {
+		else if (mediamp.matches == true) {
 			happy.style.top = "50%";
 		}
 		else {
