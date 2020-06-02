@@ -27,7 +27,7 @@ window.addEventListener("scroll",(event) => {
 	if (top < scrollAmount) {
 		sad.style.opacity = 0;
 		happy.style.opacity = 1;
-		h1.style.color= "white";
+		h1.style.color= "#CFB53B";
 		h1.style.opacity= 1;
 		music.style.color= "white";
 		body.setAttribute("style","animation: animate 1000ms ease-in-out;")
