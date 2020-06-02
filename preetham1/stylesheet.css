@@ -201,7 +201,7 @@ a:hover{
 		top: 6%;
 	}
 	#video{
-		bottom: -105px;
+		bottom: -15%;
 	}
 	#music{
 		bottom: -45px;
@@ -210,6 +210,6 @@ a:hover{
 		top: 180px;
 	}
 	#spice{
-		bottom: -105px;
+		bottom: -15%;
 	}
 }
