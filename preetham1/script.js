@@ -21,7 +21,7 @@ if (mediaheight.matches == true){
 	 scrollAmount = 240;
 }
 if (mediamac.matches) {
-	 scrollAmount = 100;
+	 scrollAmount = 150;
 }
 window.addEventListener("scroll",(event) => {
 	const { top } = image.getBoundingClientRect();
