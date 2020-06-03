@@ -66,8 +66,6 @@ section#image  > div{
 }
 #music{
 	padding: 15px;
-	padding-left: 20px;
-	padding-right: 0px;
 	padding-top: 5px;
 	color: white;
 	font-family: 'Six Caps', sans-serif;
@@ -79,10 +77,7 @@ section#image  > div{
 }
 #video{
 	padding: 15px;
-	padding-left: 20px;
-	padding-right: 0px;
 	padding-top: 5px;
-	width: 65px;
 	color: white;
 	font-family: 'Six Caps', sans-serif;
 	font-size: 35px;
@@ -93,10 +88,6 @@ section#image  > div{
 }
 #spice{
 	padding: 15px;
-	padding-left: 20px;
-	padding-right: 15px;
-	padding-top: 5px;
-	width: auto;
 	font-family: 'Six Caps', sans-serif;
 	font-size: 30px;
 	display: inline-block;
@@ -124,6 +115,7 @@ section#image  > div{
 	text-decoration: none;
 	color: black;
 	background-color: #ffffff;
+	border: 2px #83ff77 solid;
 }
 /* MUSIC HOVER */
 #music::before {
@@ -139,7 +131,7 @@ section#image  > div{
   transition: all ease-in-out 900ms;
 }
 #music:hover::before{
-	width: 71%;
+	width: 60%;
 }
 /* VIDEO HOVER */
 #video::before {
@@ -155,7 +147,7 @@ section#image  > div{
   transition: all ease-in-out 900ms;
 }
 #video:hover::before{
-	width: 70%;
+	width: 60%;
 }
 a:hover{
 	text-decoration: none;
@@ -193,7 +185,6 @@ a:hover{
 	}
 	.preorder{
 		left: 280px;
-		font-size: 27px;
 	}
 }
 @media (min-width: 576px){
@@ -207,7 +198,6 @@ a:hover{
 		bottom: -6%;
 	}
 	.preorder{
-		font-size: 27px;
 		top: 180px;
 	}
 	#spice{
