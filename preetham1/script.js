@@ -5,6 +5,7 @@ const body = document.querySelector('body');
 const h1 = document.querySelector('h1');
 const music = document.querySelector('#music');
 const preorder = document.querySelector('.preorder')
+const video = document.querySelector('#vid');
 const mediasp = matchMedia('(max-width: 400px)')
 const mediamp = matchMedia('(max-width: 575px)')
 const medialp = matchMedia('(min-height: 740px)')
@@ -32,6 +33,7 @@ else if (medialarglap.matches) {
 window.addEventListener("scroll",(event) => {
 	const { top } = image.getBoundingClientRect();
 	if (top < scrollAmount) {
+    video.style.opacity = 1;
 		sad.style.opacity = 0;
 		happy.style.opacity = 1;
 		h1.style.color= "#ff0000";
@@ -52,6 +54,7 @@ window.addEventListener("scroll",(event) => {
 		}
 
 		else {
+    video.style.opacity = 0;
 		sad.style.opacity = 1;
 		happy.style.opacity = 0;
 		body.style.backgroundColor= "white";
