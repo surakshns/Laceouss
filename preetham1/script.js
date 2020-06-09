@@ -43,10 +43,10 @@ window.addEventListener("scroll",(event) => {
 		body.style.backgroundColor= "black";
 		preorder.setAttribute("style","animation: come 1000ms ease-out;")
 		if (mediasp.matches == true) {
-			happy.style.top = "50%";
+			video.style.top = "18%";
 		}
 		else if (mediamp.matches == true) {
-			happy.style.top = "50%";
+			video.style.top = "18%";
 		}
 		else {
 			happy.style.top = "25%";

@@ -58,7 +58,7 @@ section#image  > div{
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 15%;
+  top: 13%;
   left: -0px;
   background-size: cover;
   margin: auto;
@@ -102,7 +102,7 @@ section#image  > div{
 	font-size: 30px;
 	display: inline-block;
 	position: absolute;
-	bottom: -180px;
+	bottom: -160px;
 	right: 0px;
 	color: rgba(255, 225, 225, 0.1);
 	background-image: url('https://images.pond5.com/huge-blood-splash-footage-000129538_prevstill.jpeg');
@@ -176,11 +176,11 @@ a:hover{
 	}
 	#music{
 		font-size: 30px;
-			bottom: -120px;
+			bottom: -100px;
 	}
 	#video{
 		font-size: 30px;
-			bottom: -180px;
+			bottom: -160px;
 	}
 }
 @media (min-width: 426px) and (max-width: 575px){
