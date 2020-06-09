@@ -1,2 +1,215 @@
-/* OBFUSCATED BY CSSOBFUSCATOR.COM at 2020/06/05 00:09:29 */
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");@import url("https://fonts.googleapis.com/css2?family=Six+Caps&display=swap");@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");body{margin-left:0in;}body{margin-bottom:0in;}body{margin-right:0in;}body{margin-top:0in;}body{padding-left:0pc;}body{padding-bottom:0pc;}body{padding-right:0pc;}body{padding-top:0pc;}*{scroll-behavior:smooth;}@keyframes animate{0%{background-color:white;}100%{background-color:#000;}}@keyframes come{from{opacity:0;padding:20px;}to{opacity:1;padding:10px;}}@keyframes spice{0%{background-position:left 0px top 10px;}40%{background-position:left 800px top 10px;}}#sad{background-image:url("sad.jpeg");}.preorder:hover{text-decoration:none;}#music::before{content:"";}#sad{opacity:1;}h1{color:#f00;}h1{position:relative;}section#image  > div,#music,[class~=preorder],#music::before{position:absolute;}#sad,#happy{background-position:center;}#happy{background-image:url("happy.jpeg");}#happy,h1{opacity:0;}.preorder:hover{color:black;}section#image  > div,#music::before{width:100%;}#music::before{display:block;}h1{font-family:"Great Vibes",cursive;}[class~=preorder]{left:315pt;}[class~=preorder]{top:9.375pc;}#music::before{display:fixed;}#music::before{height:3.75pt;}#music,#video{padding-left:11.25pt;}#video,#music{padding-bottom:11.25pt;}[class~=preorder]{padding-left:.104166667in;}#video,#music{padding-right:11.25pt;}.preorder:hover{background-color:#fff;}#music::before{width:0%;}h1{font-size:70px;}#music,#video{padding-top:.3125pc;}#music::before{background-color:red;}#music,#video{color:white;}#video,#music{font-family:"Six Caps",sans-serif;}section#image  > div{height:100%;}[class~=preorder]{padding-bottom:.104166667in;}#music:hover::before,#video:hover::before{width:60%;}#music::before{top:0;}#video,#music{font-size:35px;}.preorder:hover{border-left-width:.125pc;}#video,#music{display:inline-block;}#music::before{transition:all ease-in-out 900ms;}[class~=preorder]{padding-right:.104166667in;}[class~=preorder]{padding-top:.104166667in;}[class~=preorder]{color:#83ff77;}#music{bottom:-7.5pc;}#music,#video{left:0pc;}h1{top:15%;}section{width:450px;}.preorder:hover{border-bottom-width:.125pc;}section#image  > div{background-size:cover;}section{height:28.125pc;}.preorder:hover{border-right-width:.125pc;}.preorder:hover{border-top-width:.125pc;}#video::before{content:"";}#video::before,#spice,section,#video{position:absolute;}[class~=preorder]{background-color:#000;}#video::before{display:block;}#video::before{display:fixed;}.preorder:hover,[class~=preorder]{border-left-style:solid;}section{left:50%;}[class~=preorder],.preorder:hover{border-bottom-style:solid;}.preorder:hover,[class~=preorder]{border-right-style:solid;}#spice,#video{bottom:-180px;}a:hover{text-decoration:none;}section#image  > div{margin-left:auto;}[class~=preorder],.preorder:hover{border-top-style:solid;}#video::before{height:.052083333in;}#video::before{width:100%;}section{top:50%;}#video::before{width:0%;}#spice{padding-left:11.25pt;}#spice{padding-bottom:11.25pt;}#video::before{background-color:red;}#spice{padding-right:11.25pt;}section{margin-left:-14.0625pc;}[class~=preorder],#spice{font-family:"Six Caps",sans-serif;}[class~=preorder]{font-size:.28125in;}.preorder:hover,[class~=preorder]{border-left-color:#83ff77;}[class~=preorder],.preorder:hover{border-bottom-color:#83ff77;}#spice{padding-top:11.25pt;}section{margin-top:-14.0625pc;}[class~=preorder]{border-left-width:.010416667in;}[class~=preorder]{border-bottom-width:.010416667in;}[class~=preorder]{border-right-width:.010416667in;}[class~=preorder]{border-top-width:.010416667in;}#spice{font-size:30px;}#spice{display:inline-block;}#video::before{top:0;}section#image  > div{margin-bottom:auto;}#video::before{transition:all ease-in-out 900ms;}section#image  > div{margin-right:auto;}section#image  > div{margin-top:auto;}#spice{right:0in;}#spice{color:rgba(255,225,225,.1);}#spice{background-image:url("https://images.pond5.com/huge-blood-splash-footage-000129538_prevstill.jpeg");}#spice{-webkit-background-clip:text;}[class~=preorder],.preorder:hover{border-right-color:#83ff77;}#spice{animation:spice 15s linear infinite;}.preorder:hover,[class~=preorder]{border-top-color:#83ff77;}#spice{background-repeat:repeat-x repeat-y;}.preorder:hover,[class~=preorder]{border-image:none;}@media (min-width: 0px) and (max-width: 425px){section{width:3.125in;}section{height:225pt;}[class~=preorder]{left:2.395833333in;}section{margin-left:-9.375pc;}[class~=preorder]{font-size:24px;}section{margin-top:-150px;}#music,#video{font-size:.3125in;}#music{bottom:-90pt;}#video{bottom:-180px;}}@media (min-width: 426px) and (max-width: 575px){section{width:350px;}section{height:3.645833333in;}section{margin-left:-10.9375pc;}section{margin-top:-10.9375pc;}h1{top:5%;}[class~=preorder]{left:2.916666667in;}}@media (min-width: 576px){#video{bottom:-15%;}#music{bottom:-6%;}#spice{bottom:-15%;}h1{top:6%;}[class~=preorder]{top:180px;}}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+@keyframes animate{
+	0%{
+		background-color: white;
+  }
+	100%{
+		background-color: #000000;
+	}
+}
+@keyframes come {
+	from {opacity: 0;padding: 20px;}
+	to {opacity: 1;padding: 10px;}
+}
+@keyframes spice {
+	0%{
+		background-position: left 0px top 10px;
+	}
+	40%{
+		background-position: left 800px top 10px;
+	}
+}
+h1{
+	color: #ff0000;
+	position: relative;
+	font-family: 'Great Vibes', cursive;
+  opacity: 0;
+	font-size: 70px;
+	top: 15%;
+}
+section{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -225px;
+  margin-top: -225px;
+}
+section#image  > div{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	margin: auto;
+}
+#intro{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 15%;
+  left: -0px;
+  background-size: cover;
+  margin: auto;
+}
+#sad{
+	background-image: url("sad.jpeg");
+    opacity: 1;
+     background-position: center;
+}
+#happy{
+	/* background-image: url('happy.jpeg'); */
+	 opacity: 0;
+	   background-position: center;
+
+}
+#music{
+	padding: 15px;
+	padding-top: 5px;
+	color: white;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 35px;
+	display: inline-block;
+	position: absolute;
+	bottom: -120px;
+	left: 0px;
+}
+#video{
+	padding: 15px;
+	padding-top: 5px;
+	color: white;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 35px;
+	display: inline-block;
+	position: absolute;
+	bottom: -180px;
+	left: 0px;
+}
+#spice{
+	padding: 15px;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 30px;
+	display: inline-block;
+	position: absolute;
+	bottom: -180px;
+	right: 0px;
+	color: rgba(255, 225, 225, 0.1);
+	background-image: url('https://images.pond5.com/huge-blood-splash-footage-000129538_prevstill.jpeg');
+	-webkit-background-clip: text;
+	animation: spice 15s linear infinite;
+	background-repeat: repeat-x repeat-y;
+}
+.preorder{
+	position: absolute;
+	left: 420px;
+	top: 150px;
+	padding: 10px;
+	color: #83ff77;
+	background-color: #000000;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 27px;
+	border: 1px #83ff77 solid;
+}
+.preorder:hover{
+	text-decoration: none;
+	color: black;
+	background-color: #ffffff;
+	border: 2px #83ff77 solid;
+}
+/* MUSIC HOVER */
+#music::before {
+	content: "";
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: red;
+	display: fixed;
+	position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 900ms;
+}
+#music:hover::before{
+	width: 60%;
+}
+/* VIDEO HOVER */
+#video::before {
+	content: "";
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: red;
+	display: fixed;
+	position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 900ms;
+}
+#video:hover::before{
+	width: 60%;
+}
+a:hover{
+	text-decoration: none;
+}
+
+@media (min-width: 0px) and (max-width: 425px){
+	section{
+		width: 300px;
+		height: 300px;
+		margin-left: -150px;
+		margin-top: -150px;
+	}
+	.preorder{
+		left: 230px;
+		font-size: 24px;
+	}
+	#music{
+		font-size: 30px;
+			bottom: -120px;
+	}
+	#video{
+		font-size: 30px;
+			bottom: -180px;
+	}
+}
+@media (min-width: 426px) and (max-width: 575px){
+	section{
+		width: 350px;
+		height: 350px;
+		margin-left: -175px;
+		margin-top: -175px;
+	}
+	h1{
+		top: 5%;
+	}
+	.preorder{
+		left: 280px;
+	}
+}
+@media (min-width: 576px){
+	h1{
+		top: 6%;
+	}
+	#video{
+		bottom: -15%;
+	}
+	#music{
+		bottom: -6%;
+	}
+	.preorder{
+		top: 180px;
+	}
+	#spice{
+		bottom: -15%;
+	}
+}

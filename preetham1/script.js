@@ -1,1 +1,65 @@
-const _0x2d52=['matches','backgroundColor','opacity','animation','animation:\x20animate\x201000ms\x20ease-in-out;','50%','#ff0000','#happy','image','ease-in-out','style','addEventListener','25%','#sad','(min-height:\x201100px)\x20and\x20(max-height:\x201555px)','(min-height:\x20786px)\x20and\x20(max-height:\x201099px)','(max-width:\x20575px)','scroll','#music','top','body','(min-height:\x20740px)','(max-width:\x20400px)','white','querySelector','color','setAttribute'];(function(_0x5d1bf0,_0x2d52b9){const _0x2a8275=function(_0x50fd9f){while(--_0x50fd9f){_0x5d1bf0['push'](_0x5d1bf0['shift']());}};_0x2a8275(++_0x2d52b9);}(_0x2d52,0x1eb));const _0x2a82=function(_0x5d1bf0,_0x2d52b9){_0x5d1bf0=_0x5d1bf0-0x0;let _0x2a8275=_0x2d52[_0x5d1bf0];return _0x2a8275;};const image=document['getElementById'](_0x2a82('0x3'));const sad=document['querySelector'](_0x2a82('0x8'));const happy=document[_0x2a82('0x13')](_0x2a82('0x2'));const body=document[_0x2a82('0x13')](_0x2a82('0xf'));const h1=document['querySelector']('h1');const music=document[_0x2a82('0x13')](_0x2a82('0xd'));const preorder=document[_0x2a82('0x13')]('.preorder');const mediasp=matchMedia(_0x2a82('0x11'));const mediamp=matchMedia(_0x2a82('0xb'));const medialp=matchMedia(_0x2a82('0x10'));const mediamidlap=matchMedia(_0x2a82('0xa'));const medialarglap=matchMedia(_0x2a82('0x9'));var scrollAmount;if(mediasp[_0x2a82('0x16')]==!![]){scrollAmount=0x32;}else if(mediamp[_0x2a82('0x16')]==!![]){scrollAmount=0xb4;}else{scrollAmount=0x32;}if(medialp[_0x2a82('0x16')]==!![]&mediamp[_0x2a82('0x16')]==!![]){scrollAmount=0xc3;}if(mediamidlap[_0x2a82('0x16')]){scrollAmount=0xa0;}else if(medialarglap['matches']){scrollAmount=0x140;}window[_0x2a82('0x6')](_0x2a82('0xc'),_0x34dbe6=>{const {top}=image['getBoundingClientRect']();if(top<scrollAmount){sad[_0x2a82('0x5')]['opacity']=0x0;happy[_0x2a82('0x5')][_0x2a82('0x18')]=0x1;h1[_0x2a82('0x5')][_0x2a82('0x14')]=_0x2a82('0x1');h1['style'][_0x2a82('0x18')]=0x1;music[_0x2a82('0x5')][_0x2a82('0x14')]=_0x2a82('0x12');body[_0x2a82('0x15')](_0x2a82('0x5'),_0x2a82('0x1a'));body[_0x2a82('0x5')][_0x2a82('0x17')]='black';preorder[_0x2a82('0x15')](_0x2a82('0x5'),'animation:\x20come\x201000ms\x20ease-out;');if(mediasp['matches']==!![]){happy['style']['top']='50%';}else if(mediamp[_0x2a82('0x16')]==!![]){happy[_0x2a82('0x5')][_0x2a82('0xe')]=_0x2a82('0x0');}else{happy[_0x2a82('0x5')][_0x2a82('0xe')]=_0x2a82('0x7');}}else{sad[_0x2a82('0x5')][_0x2a82('0x18')]=0x1;happy[_0x2a82('0x5')]['opacity']=0x0;body[_0x2a82('0x5')][_0x2a82('0x17')]='white';body[_0x2a82('0x5')][_0x2a82('0x19')]=_0x2a82('0x4');music[_0x2a82('0x5')]['animation']=_0x2a82('0x4');preorder[_0x2a82('0x5')][_0x2a82('0x19')]=_0x2a82('0x4');music[_0x2a82('0x5')][_0x2a82('0x14')]=_0x2a82('0x12');h1[_0x2a82('0x5')][_0x2a82('0x18')]=0x0;}});
+const image = document.getElementById("image");
+const sad = document.querySelector('#sad');
+const happy = document.querySelector('#happy');
+const body = document.querySelector('body');
+const h1 = document.querySelector('h1');
+const music = document.querySelector('#music');
+const preorder = document.querySelector('.preorder')
+const mediasp = matchMedia('(max-width: 400px)')
+const mediamp = matchMedia('(max-width: 575px)')
+const medialp = matchMedia('(min-height: 740px)')
+const mediamidlap = matchMedia('(min-height: 786px) and (max-height: 1099px)')
+const medialarglap = matchMedia('(min-height: 1100px) and (max-height: 1555px)')
+var scrollAmount
+if (mediasp.matches == true) {
+		scrollAmount = 50;
+}
+else if (mediamp.matches == true) {
+	  scrollAmount = 180;
+}
+else{
+	  scrollAmount = 50;
+}
+if (medialp.matches == true & mediamp.matches == true){
+	 scrollAmount = 195;
+}
+if (mediamidlap.matches) {
+	 scrollAmount = 160;
+}
+else if (medialarglap.matches) {
+	 scrollAmount = 320;
+}
+window.addEventListener("scroll",(event) => {
+	const { top } = image.getBoundingClientRect();
+	if (top < scrollAmount) {
+		sad.style.opacity = 0;
+		happy.style.opacity = 1;
+		h1.style.color= "#ff0000";
+		h1.style.opacity= 1;
+		music.style.color= "white";
+		body.setAttribute("style","animation: animate 1000ms ease-in-out;")
+		body.style.backgroundColor= "black";
+		preorder.setAttribute("style","animation: come 1000ms ease-out;")
+		if (mediasp.matches == true) {
+			happy.style.top = "50%";
+		}
+		else if (mediamp.matches == true) {
+			happy.style.top = "50%";
+		}
+		else {
+			happy.style.top = "25%";
+		}
+		}
+
+		else {
+		sad.style.opacity = 1;
+		happy.style.opacity = 0;
+		body.style.backgroundColor= "white";
+		body.style.animation= "ease-in-out";
+		music.style.animation= "ease-in-out";
+		preorder.style.animation= "ease-in-out";
+		music.style.color= "white";
+		h1.style.opacity= 0;
+			// sad.style.top= "40%";
+	}
+});
