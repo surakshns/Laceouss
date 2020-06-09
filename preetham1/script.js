@@ -46,13 +46,12 @@ window.addEventListener("scroll",(event) => {
 			video.style.top = "18%";
 		}
 		else if (mediamp.matches == true) {
-			video.style.top = "18%";
+			video.style.top = "15%";
 		}
 		else {
 			happy.style.top = "25%";
 		}
-		}
-
+}
 		else {
     video.style.opacity = 0;
 		sad.style.opacity = 1;
