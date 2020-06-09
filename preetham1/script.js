@@ -39,7 +39,7 @@ window.addEventListener("scroll",(event) => {
 		h1.style.color= "#ff0000";
 		h1.style.opacity= 1;
 		music.style.color= "white";
-		body.setAttribute("style","animation: animate 1000ms ease-in-out;")
+		body.setAttribute("style","animation: animate 0ms ease-in-out;")
 		body.style.backgroundColor= "black";
 		preorder.setAttribute("style","animation: come 1000ms ease-out;")
 		if (mediasp.matches == true) {
