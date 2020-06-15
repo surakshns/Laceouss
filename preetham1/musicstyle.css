@@ -1,0 +1,47 @@
+body{
+  background: black;
+  margin: 0px;
+  padding: 0px;
+}
+section{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -425px;
+  margin-top: -225px;
+}
+#album{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	margin: auto;
+  background-image: url("album.jpeg");
+}
+.list{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: 25px;
+  margin-top: -225px;
+  background-color: #383838;
+  opacity: 0.5;
+}
+.soon{
+  position: relative;
+  top: 50%;
+  left: 25%;
+}
+.link{
+  text-decoration: none;
+  color: 	#989898;
+  font-size: 25px;
+}
+.link:hover{
+  text-decoration: none;
+  color: red;
+}
