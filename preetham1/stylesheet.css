@@ -203,7 +203,6 @@ a:hover{
 @media (min-width: 576px){
 	h1{
 		top: 6%;
-		font-size: 85px;
 	}
 	#video{
 		bottom: -15%;
@@ -216,6 +215,5 @@ a:hover{
 	}
 	#spice{
 		bottom: -15%;
-		font-size: 35px;
 	}
 }
