@@ -93,7 +93,7 @@ section#image  > div{
 	font-size: 35px;
 	display: inline-block;
 	position: absolute;
-	bottom: -180px;
+	bottom: -160px;
 	left: 0px;
 }
 #spice{
@@ -191,13 +191,14 @@ a:hover{
 		margin-top: -175px;
 	}
 	h1{
-		top: 5%;
+		top: 3%;
+		font-size: 85px;
 	}
 	.preorder{
     top: 170px;
 		left: 280px;
 	}
-  
+
 }
 @media (min-width: 576px){
 	h1{
