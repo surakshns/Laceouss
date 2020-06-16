@@ -82,7 +82,7 @@ section#image  > div{
 	font-size: 35px;
 	display: inline-block;
 	position: absolute;
-	bottom: -120px;
+	bottom: -100px;
 	left: 0px;
 }
 #video{
@@ -176,11 +176,11 @@ a:hover{
 	}
 	#music{
 		font-size: 30px;
-			bottom: -100px;
+			bottom: -120px;
 	}
 	#video{
 		font-size: 30px;
-			bottom: -160px;
+			bottom: -180px;
 	}
 }
 @media (min-width: 426px) and (max-width: 575px){
