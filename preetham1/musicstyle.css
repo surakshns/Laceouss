@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 body{
   background: black;
   margin: 0px;
@@ -6,6 +8,8 @@ body{
 h1{
   color: white;
   top: 0%;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 50PX;
 }
 section{
   width: 400px;
@@ -13,7 +17,7 @@ section{
   position: absolute;
   left: 50%;
   top: 40%;
-  margin-left: -375px;
+  margin-left: -400px;
   margin-top: -175px;
 }
 #album{
@@ -37,14 +41,14 @@ section{
 .link{
   position: absolute;
   top: 85%;
-  left: 40%;
+  left: 48%;
   text-decoration: none;
   background-color: black;
   color:#83ff77;
   font-size: 20px;
   padding: 15px;
   border: 1px solid #83ff77;
-  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
 }
 .link:hover {
   text-decoration: none;
