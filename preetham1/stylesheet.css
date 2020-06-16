@@ -102,7 +102,7 @@ section#image  > div{
 	font-size: 30px;
 	display: inline-block;
 	position: absolute;
-	bottom: -160px;
+	bottom: -170px;
 	right: 0px;
 	color: rgba(255, 225, 225, 0.1);
 	background-image: url('https://images.pond5.com/huge-blood-splash-footage-000129538_prevstill.jpeg');
@@ -116,16 +116,16 @@ section#image  > div{
 	top: 150px;
 	padding: 10px;
 	color: #83ff77;
-	background-color: #000000;
 	font-family: 'Six Caps', sans-serif;
 	font-size: 27px;
 	border: 1px #83ff77 solid;
 }
 .preorder:hover{
 	text-decoration: none;
-	color: black;
-	background-color: #ffffff;
-	border: 2px #83ff77 solid;
+	color: red;
+	background-color: black;
+	border: 2px red solid;
+	font-weight: bold;
 }
 /* MUSIC HOVER */
 #music::before {
@@ -176,11 +176,11 @@ a:hover{
 	}
 	#music{
 		font-size: 30px;
-			bottom: -120px;
+			bottom: -110px;
 	}
 	#video{
 		font-size: 30px;
-			bottom: -180px;
+			bottom: -170px;
 	}
 }
 @media (min-width: 426px) and (max-width: 575px){
