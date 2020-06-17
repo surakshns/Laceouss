@@ -49,7 +49,7 @@ section{
   left: 50%;
   top: 50%;
   margin-left: -225px;
-  margin-top: -225px;
+  margin-top: -250px;
 }
 section#image  > div{
 	width: 100%;
@@ -170,7 +170,7 @@ a:hover{
 }
 .scrolldown{
 	position: absolute;
-	bottom: -70px;
+	bottom: -60px;
 	left: 50%;
 	width: 15px;
 	height: 15px;
@@ -185,10 +185,7 @@ a:hover{
 	display: block;
 	width: 100%;
 	height: 100%;
-	border-bottom: 2.5px solid black;
-	border-right: 2.5px solid black;
 	opacity: 0;
-	animation: scroll 1.2s  ease-in-out infinite;
 }
 /* .scrolldown span:nth-child(1){
 	transform: translate(-15px,-15px);
@@ -219,6 +216,23 @@ a:hover{
 		opacity: 0;
 	}
 }
+@keyframes scrollmob {
+	0%{
+		top: 5px;
+		left: 5px;
+		opacity: 0;
+	}
+	25%{
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+	}
+	100%{
+		top: -10px;
+		left: -10px;
+		opacity: 0;
+	}
+}
 @media (min-width: 0px) and (max-width: 425px){
 	h1{
 		top: 80px;
@@ -244,8 +258,13 @@ a:hover{
 			bottom: -170px;
 	}
 	.scrolldown{
-	bottom: -50px;
+	bottom: -60px;
 	margin-left: -8px;
+	}
+	.scrolldown span{
+		border-top: 2.5px solid black;
+		border-left: 2.5px solid black;
+		animation: scrollmob 1.2s  ease-in-out infinite;
 	}
 }
 @media (min-width: 426px) and (max-width: 575px){
@@ -270,11 +289,16 @@ a:hover{
 		bottom: -50px;
     margin-left: -8px;
   }
+	.scrolldown span{
+		border-top: 2.5px solid black;
+		border-left: 2.5px solid black;
+		animation: scrollmob 1.2s  ease-in-out infinite;
+	}
 }
 @media (min-width: 576px){
 	h1{
 		left: 25px;
-		top: 10px;
+		top: 20px;
 	}
 	#video{
 		bottom: -15%;
@@ -286,6 +310,11 @@ a:hover{
 		top: 190px;
 	}
 	#spice{
-		bottom: -16%;
+		bottom: -15%;
+	}
+	.scrolldown span{
+		border-bottom: 2.5px solid black;
+		border-right: 2.5px solid black;
+		animation: scroll 1.2s  ease-in-out infinite;
 	}
 }
