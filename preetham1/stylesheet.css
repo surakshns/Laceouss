@@ -274,7 +274,7 @@ a:hover{
 @media (min-width: 576px){
 	h1{
 		left: 25px;
-		top: 30px;
+		top: 10px;
 	}
 	#video{
 		bottom: -15%;

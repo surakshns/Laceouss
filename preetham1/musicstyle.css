@@ -10,6 +10,8 @@ h1{
   color: white;
   font-family: 'Six Caps', sans-serif;
   font-size: 50PX;
+  position: relative;
+  left: 10px;
 }
 section{
   width: 400px;
@@ -72,7 +74,6 @@ li{
 @media (min-width: 0px) and (max-width: 576px){
   h1{
     color: white;
-    top: 0%;
     font-family: 'Six Caps', sans-serif;
     font-size: 60PX;
   }
@@ -105,10 +106,10 @@ li{
     border: 1px solid #83ff77;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    top: 50%;
-    margin-top: 130px;
+    top: 70%;
+    margin-top: 100px;
     left: 50%;
-    margin-left: 65px;
+    margin-left: -36px;
   }
   .link:hover {
     text-decoration: none;
