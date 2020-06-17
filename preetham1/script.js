@@ -12,7 +12,6 @@ const mediamp = matchMedia('(max-width: 575px)');
 const medialp = matchMedia('(min-height: 740px)');
 const mediamidlap = matchMedia('(min-height: 786px) and (max-height: 1099px)');
 const medialarglap = matchMedia('(min-height: 1100px) and (max-height: 1555px)');
-const lock = screen.orientation.lock("portrait-primary");
 var scrollAmount
 if (mediasp.matches == true) {
 		scrollAmount = 50;
@@ -27,7 +26,7 @@ if (medialp.matches == true & mediamp.matches == true){
 	 scrollAmount = 195;
 }
 if (mediamidlap.matches) {
-	 scrollAmount = 160;
+	 scrollAmount = 190;
 }
 else if (medialarglap.matches) {
 	 scrollAmount = 320;
