@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@font-face {
+	font-family: Laceouss;
+	src: url("Prida65.otf");
+}
 *{
 	scroll-behavior: smooth;
 }
@@ -32,7 +37,7 @@ body{
 h1{
 	color: #ff0000;
 	position: relative;
-	font-family: 'Great Vibes', cursive;
+	font-family: Laceouss;
   opacity: 0;
 	font-size: 70px;
 	top: 15%;
@@ -99,7 +104,8 @@ section#image  > div{
 #spice{
 	padding: 15px;
 	font-family: 'Six Caps', sans-serif;
-	font-size: 30px;
+	font-family: 'Michroma', sans-serif;
+	font-size: 20px;
 	display: inline-block;
 	position: absolute;
 	bottom: -170px;
