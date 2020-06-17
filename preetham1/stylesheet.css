@@ -274,7 +274,7 @@ a:hover{
 @media (min-width: 576px){
 	h1{
 		left: 15px;
-		top: 10px;
+		top: 30px;
 	}
 	#video{
 		bottom: -15%;
@@ -286,6 +286,6 @@ a:hover{
 		top: 190px;
 	}
 	#spice{
-		bottom: -15%;
+		bottom: -16%;
 	}
 }
