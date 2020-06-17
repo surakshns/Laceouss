@@ -94,15 +94,15 @@ li{
     text-decoration: none;
     background-color: black;
     color:#83ff77;
-    font-size: 13px;
+    font-size: 15px;
     padding: 10px;
     font-weight: bold;
     border: 1px solid #83ff77;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    top: 412px;
+    top: 409px;
     left: 50%;
-    margin-left: 69px;
+    margin-left: 65px;
   }
   .link:hover {
     text-decoration: none;
