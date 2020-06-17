@@ -172,9 +172,9 @@ a:hover{
 	position: absolute;
 	bottom: -50px;
 	left: 50%;
-	width: 60px;
-	height: 60px;
-	margin-left: -25px;
+	width: 30px;
+	height: 30px;
+	margin-left: -15px;
 	/* background: red; */
 	transform: translateY(-80px) translateX(50%) rotate(45deg);
 }
@@ -244,7 +244,7 @@ a:hover{
 			bottom: -170px;
 	}
 	.scrolldown{
-	margin-left: -50px;
+	margin-left: -15px;
 	}
 }
 @media (min-width: 426px) and (max-width: 575px){
@@ -263,12 +263,12 @@ a:hover{
 		left: 280px;
 		font-size: 27px;
 	}
-#music{
-bottom: -120px;
-}
-.scrolldown{
-margin-left: -50px;
-}
+  #music{
+    bottom: -120px;
+  }
+  .scrolldown{
+    margin-left: -15px;
+  }
 }
 @media (min-width: 576px){
 	h1{
