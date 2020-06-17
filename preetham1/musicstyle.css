@@ -17,8 +17,8 @@ section{
   position: absolute;
   left: 50%;
   top: 40%;
-  margin-left: -400px;
-  margin-top: -175px;
+  margin-left: -200px;
+  margin-top: -160px;
 }
 #album{
 	width: 100%;
@@ -79,7 +79,11 @@ li{
   section{
     width: 320px;
     height: 350px;
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -160px;
+    margin-top: -175px;
 }
   #album{
   	width: 100%;
@@ -101,7 +105,8 @@ li{
     border: 1px solid #83ff77;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    top: 433px;
+    top: 50%;
+    margin-top: 130px;
     left: 50%;
     margin-left: 65px;
   }
