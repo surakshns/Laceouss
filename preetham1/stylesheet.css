@@ -36,11 +36,13 @@ body{
 }
 h1{
 	color: #ff0000;
-	position: relative;
+	position: absolute;
 	font-family: Laceouss;
   opacity: 0;
 	font-size: 70px;
 	top: 15%;
+	width: 550px;
+	left: -8%;
 }
 section{
   width: 450px;
@@ -214,7 +216,7 @@ bottom: -120px;
 }
 @media (min-width: 576px){
 	h1{
-		top: 6%;
+		top: 128%;
 	}
 	#video{
 		bottom: -15%;
