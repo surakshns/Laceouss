@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 body{
   background: black;
   margin: 0px;
   padding: 0px;
+}
+@keyframes spice {
+	0%{
+		background-position: left 0px top 10px;
+	}
+	40%{
+		background-position: left 800px top 10px;
+	}
 }
 @media (min-width: 577px){
 h1{
@@ -30,7 +39,7 @@ section{
 	margin: auto;
   background-image: url("album.jpeg");
 }
-.list{
+/* .list{
   width: 400px;
   height: 430px;
   position: absolute;
@@ -38,7 +47,7 @@ section{
   top: 50%;
   margin-left: 25px;
   margin-top: -225px;
-}
+} */
 .link{
   position: absolute;
   top: 85%;
@@ -70,6 +79,21 @@ li{
   opacity: 0.5;
   list-style: none;
   text-align: center;
+}
+#spice{
+	padding: 15px;
+	font-family: 'Six Caps', sans-serif;
+	font-family: 'Michroma', sans-serif;
+	font-size: 15px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: rgba(255, 225, 225, 0.1);
+	background-image: url('https://images.pond5.com/huge-blood-splash-footage-000129538_prevstill.jpeg');
+	-webkit-background-clip: text;
+	animation: spice 15s linear infinite;
+	background-repeat: repeat-x repeat-y;
 }}
 @media (min-width: 0px) and (max-width: 576px){
   h1{
@@ -93,9 +117,6 @@ li{
   	margin: auto;
     background-image: url("album.jpeg");
   }
-  .list{
-
-  }
   .link{
     text-decoration: none;
     background-color: black;
@@ -108,7 +129,7 @@ li{
     position: absolute;
     top: 70%;
     margin-top: 100px;
-    left: 50%;
+    left: 48%;
     margin-left: -36px;
   }
   .link:hover {
@@ -128,6 +149,21 @@ li{
     opacity: 0.7;
     text-align: center;
     list-style: none;
+  }
+  #spice{
+  	padding: 15px;
+  	font-family: 'Six Caps', sans-serif;
+  	font-family: 'Michroma', sans-serif;
+  	font-size: 15px;
+  	display: inline-block;
+  	position: absolute;
+  	bottom: 0px;
+  	right: 0px;
+  	color: rgba(255, 225, 225, 0.1);
+  	background-image: url('https://images.pond5.com/huge-blood-splash-footage-000129538_prevstill.jpeg');
+  	-webkit-background-clip: text;
+  	animation: spice 15s linear infinite;
+  	background-repeat: repeat-x repeat-y;
   }
 
 

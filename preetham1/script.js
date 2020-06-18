@@ -26,7 +26,7 @@ if (medialp.matches == true & mediamp.matches == true){
 	 scrollAmount = 195;
 }
 if (mediamidlap.matches) {
-	 scrollAmount = 190;
+	 scrollAmount = 180;
 }
 else if (medialarglap.matches) {
 	 scrollAmount = 320;
