@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+body{
+  background: black;
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  color: white;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 50PX;
+  position: relative;
+}
+p{
+  position: relative;
+  top: 40%;
+  font-weight: bold;
+  color: grey;
+}
